@@ -297,6 +297,7 @@ class Dispense(BaseUuidModel):
 
     @property
     def label_context(self):
+        print(Profile.objects.get(user__username=self.user_created).initials, '################')
         label_context = {
             'site': self.patient.site,
             'telephone_number': self.patient.site.telephone_number,
