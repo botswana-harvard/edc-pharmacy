@@ -26,7 +26,7 @@ SECRET_KEY = 'w30a*vldb5m5_!6z5ls0shizm8p()738y8mhxb3k+8379sa&eh'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost']
 
 
 # Application definition
@@ -93,11 +93,11 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'pharma',
-	'HOST': '127.0.0.1',
-	'PORT': '3306',
-	'USER': 'root',
-	'PASSWORD': 'cc3721b'
-    }
+        'HOST': '127.0.0.1',
+        'PORT': '3306',
+        'USER': 'root',
+        'PASSWORD': 'cc3721b'
+        }
 }
 
 # Password validation

@@ -2440,6 +2440,7 @@ django.core.exceptions.ImproperlyConfigured: The SECRET_KEY setting must not be 
 [2016-11-03 13:19:19 +0200] [10967] [INFO] Using worker: sync
 [2016-11-03 13:19:19 +0200] [10970] [INFO] Booting worker with pid: 10970
 [2016-11-03 13:19:19 +0200] [10967] [DEBUG] 1 workers
+<<<<<<< Updated upstream
 [2016-11-17 14:06:13 +0200] [3042] [DEBUG] Current configuration:
   django_settings: None
   suppress_ragged_eofs: True
@@ -27364,3 +27365,1684 @@ ImportError: No module named 'pharma'
 [2020-07-16 15:57:04 +0200] [23939] [DEBUG] GET /5/
 [2020-07-16 15:57:05 +0200] [23939] [DEBUG] GET /6/
 [2020-07-16 15:57:06 +0200] [23939] [DEBUG] GET /7/
+=======
+[2016-11-15 16:16:18 +0200] [11462] [DEBUG] Current configuration:
+  timeout: 30
+  pre_exec: <function PreExec.pre_exec at 0x7f2db06581e0>
+  max_requests: 0
+  proxy_protocol: False
+  suppress_ragged_eofs: True
+  post_request: <function PostRequest.post_request at 0x7f2db0658488>
+  statsd_prefix: 
+  backlog: 2048
+  on_exit: <function OnExit.on_exit at 0x7f2db0658950>
+  threads: 1
+  user: 1004
+  bind: ['127.0.0.1:9000']
+  chdir: /home/django/source/edc-pharma
+  django_settings: None
+  ca_certs: None
+  syslog_prefix: None
+  raw_env: []
+  proc_name: None
+  keyfile: None
+  worker_class: sync
+  graceful_timeout: 30
+  on_reload: <function OnReload.on_reload at 0x7f2db0653620>
+  worker_abort: <function WorkerAbort.worker_abort at 0x7f2db0658048>
+  syslog_facility: user
+  post_fork: <function Postfork.post_fork at 0x7f2db0653ae8>
+  pidfile: logs/gunicorn-pid
+  secure_scheme_headers: {'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on', 'X-FORWARDED-PROTOCOL': 'ssl'}
+  max_requests_jitter: 0
+  keepalive: 2
+  accesslog: /home/django/source/edc-pharma/logs/gunicorn-access.log
+  config: gunicorn.conf.py
+  workers: 1
+  ssl_version: 3
+  sendfile: None
+  pythonpath: None
+  proxy_allow_ips: ['127.0.0.1']
+  limit_request_line: 4094
+  limit_request_field_size: 8190
+  loglevel: debug
+  logconfig: None
+  enable_stdio_inheritance: False
+  when_ready: <function WhenReady.when_ready at 0x7f2db06537b8>
+  pre_fork: <function Prefork.pre_fork at 0x7f2db0653950>
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x7f2db0653c80>
+  worker_int: <function WorkerInt.worker_int at 0x7f2db0653e18>
+  worker_exit: <function WorkerExit.worker_exit at 0x7f2db0658620>
+  statsd_host: None
+  reload: False
+  spew: False
+  check_config: False
+  default_proc_name: edc_pharma.wsgi
+  worker_connections: 1000
+  group: 1004
+  errorlog: /home/django/source/edc-pharma/logs/gunicorn-error.log
+  capture_output: False
+  logger_class: gunicorn.glogging.Logger
+  syslog_addr: udp://localhost:514
+  syslog: False
+  certfile: None
+  limit_request_fields: 100
+  do_handshake_on_connect: False
+  preload_app: False
+  tmp_upload_dir: None
+  cert_reqs: 0
+  ciphers: TLSv1
+  daemon: True
+  worker_tmp_dir: None
+  pre_request: <function PreRequest.pre_request at 0x7f2db0658378>
+  umask: 0
+  forwarded_allow_ips: ['127.0.0.1']
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  on_starting: <function OnStarting.on_starting at 0x7f2db0653488>
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x7f2db06587b8>
+  paste: None
+[2016-11-15 16:16:18 +0200] [11462] [INFO] Starting gunicorn 19.6.0
+[2016-11-15 16:16:18 +0200] [11462] [DEBUG] Arbiter booted
+[2016-11-15 16:16:18 +0200] [11462] [INFO] Listening at: http://127.0.0.1:9000 (11462)
+[2016-11-15 16:16:18 +0200] [11462] [INFO] Using worker: sync
+[2016-11-15 16:16:18 +0200] [11467] [INFO] Booting worker with pid: 11467
+[2016-11-15 16:16:18 +0200] [11462] [DEBUG] 1 workers
+[2016-11-15 16:17:22 +0200] [11462] [INFO] Handling signal: term
+[2016-11-15 16:17:22 +0200] [11467] [INFO] Worker exiting (pid: 11467)
+[2016-11-15 16:17:22 +0200] [11462] [INFO] Shutting down: Master
+[2016-11-15 16:17:24 +0200] [11495] [DEBUG] Current configuration:
+  ca_certs: None
+  pre_fork: <function Prefork.pre_fork at 0x7f139777f950>
+  pidfile: logs/gunicorn-pid
+  user: 1004
+  paste: None
+  proxy_allow_ips: ['127.0.0.1']
+  errorlog: /home/django/source/edc-pharma/logs/gunicorn-error.log
+  config: gunicorn.conf.py
+  on_reload: <function OnReload.on_reload at 0x7f139777f620>
+  post_fork: <function Postfork.post_fork at 0x7f139777fae8>
+  worker_exit: <function WorkerExit.worker_exit at 0x7f1397784620>
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x7f13977847b8>
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  logconfig: None
+  syslog_facility: user
+  enable_stdio_inheritance: False
+  spew: False
+  group: 1004
+  check_config: False
+  statsd_prefix: 
+  bind: ['127.0.0.1:9000']
+  preload_app: False
+  umask: 0
+  accesslog: /home/django/source/edc-pharma/logs/gunicorn-access.log
+  workers: 1
+  ssl_version: 3
+  raw_env: []
+  tmp_upload_dir: None
+  pythonpath: None
+  certfile: None
+  reload: False
+  pre_exec: <function PreExec.pre_exec at 0x7f13977841e0>
+  syslog_prefix: None
+  worker_class: sync
+  threads: 1
+  forwarded_allow_ips: ['127.0.0.1']
+  backlog: 2048
+  on_starting: <function OnStarting.on_starting at 0x7f139777f488>
+  when_ready: <function WhenReady.when_ready at 0x7f139777f7b8>
+  worker_abort: <function WorkerAbort.worker_abort at 0x7f1397784048>
+  post_request: <function PostRequest.post_request at 0x7f1397784488>
+  sendfile: None
+  daemon: True
+  syslog_addr: udp://localhost:514
+  max_requests: 0
+  keyfile: None
+  statsd_host: None
+  cert_reqs: 0
+  worker_int: <function WorkerInt.worker_int at 0x7f139777fe18>
+  chdir: /home/django/source/edc-pharma
+  max_requests_jitter: 0
+  timeout: 30
+  limit_request_fields: 100
+  loglevel: debug
+  syslog: False
+  default_proc_name: edc_pharma.wsgi
+  graceful_timeout: 30
+  on_exit: <function OnExit.on_exit at 0x7f1397784950>
+  worker_tmp_dir: None
+  proxy_protocol: False
+  worker_connections: 1000
+  logger_class: gunicorn.glogging.Logger
+  django_settings: None
+  suppress_ragged_eofs: True
+  do_handshake_on_connect: False
+  ciphers: TLSv1
+  secure_scheme_headers: {'X-FORWARDED-SSL': 'on', 'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https'}
+  limit_request_line: 4094
+  keepalive: 2
+  proc_name: None
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x7f139777fc80>
+  limit_request_field_size: 8190
+  pre_request: <function PreRequest.pre_request at 0x7f1397784378>
+  capture_output: False
+[2016-11-15 16:17:24 +0200] [11495] [INFO] Starting gunicorn 19.6.0
+[2016-11-15 16:17:24 +0200] [11495] [DEBUG] Arbiter booted
+[2016-11-15 16:17:24 +0200] [11495] [INFO] Listening at: http://127.0.0.1:9000 (11495)
+[2016-11-15 16:17:24 +0200] [11495] [INFO] Using worker: sync
+[2016-11-15 16:17:24 +0200] [11500] [INFO] Booting worker with pid: 11500
+[2016-11-15 16:17:24 +0200] [11495] [DEBUG] 1 workers
+[2016-11-15 16:17:29 +0200] [11500] [DEBUG] GET /
+[2016-11-15 16:17:29 +0200] [11500] [DEBUG] GET /accounts/login/
+[2016-11-15 16:17:35 +0200] [11500] [DEBUG] POST /accounts/login/
+[2016-11-15 16:17:45 +0200] [11500] [DEBUG] POST /accounts/login/
+[2016-11-15 16:18:48 +0200] [11500] [DEBUG] POST /accounts/login/
+[2016-11-15 16:19:41 +0200] [11500] [DEBUG] GET /accounts/login/
+[2016-11-15 16:19:50 +0200] [11500] [DEBUG] POST /accounts/login/
+[2016-11-15 16:19:51 +0200] [11500] [DEBUG] GET /
+[2016-11-15 16:20:01 +0200] [11500] [DEBUG] GET /
+[2016-11-15 16:20:05 +0200] [11500] [DEBUG] GET /admin/
+[2016-11-15 16:20:09 +0200] [11500] [DEBUG] GET /admin/edc_pharma/patient/
+[2016-11-15 16:20:09 +0200] [11500] [DEBUG] GET /admin/jsi18n/
+[2016-11-15 16:20:13 +0200] [11500] [DEBUG] GET /admin/edc_pharma/
+[2016-11-15 16:20:14 +0200] [11500] [DEBUG] GET /admin/edc_pharma/medication/
+[2016-11-15 16:20:14 +0200] [11500] [DEBUG] GET /admin/jsi18n/
+[2016-11-15 16:20:16 +0200] [11500] [DEBUG] GET /admin/
+[2016-11-15 16:20:23 +0200] [11500] [DEBUG] GET /
+[2016-11-16 08:11:19 +0200] [11500] [DEBUG] GET /
+[2016-11-16 08:16:13 +0200] [11495] [INFO] Handling signal: term
+[2016-11-16 08:16:13 +0200] [11500] [INFO] Worker exiting (pid: 11500)
+[2016-11-16 08:16:14 +0200] [11495] [INFO] Shutting down: Master
+[2016-11-16 08:16:26 +0200] [15909] [DEBUG] Current configuration:
+  keepalive: 2
+  raw_env: []
+  paste: None
+  check_config: False
+  timeout: 30
+  keyfile: None
+  certfile: None
+  logger_class: gunicorn.glogging.Logger
+  worker_connections: 1000
+  reload: False
+  limit_request_field_size: 8190
+  cert_reqs: 0
+  when_ready: <function WhenReady.when_ready at 0x7ff77ea167b8>
+  pre_exec: <function PreExec.pre_exec at 0x7ff77ea1b1e0>
+  chdir: /home/django/source/edc-pharma
+  default_proc_name: edc_pharma.wsgi
+  limit_request_fields: 100
+  ssl_version: 3
+  sendfile: None
+  secure_scheme_headers: {'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on', 'X-FORWARDED-PROTOCOL': 'ssl'}
+  accesslog: /home/django/source/edc-pharma/logs/gunicorn-access.log
+  worker_int: <function WorkerInt.worker_int at 0x7ff77ea16e18>
+  on_exit: <function OnExit.on_exit at 0x7ff77ea1b950>
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  syslog_facility: user
+  pre_request: <function PreRequest.pre_request at 0x7ff77ea1b378>
+  syslog: False
+  limit_request_line: 4094
+  max_requests: 0
+  graceful_timeout: 30
+  umask: 0
+  proxy_allow_ips: ['127.0.0.1']
+  capture_output: False
+  logconfig: None
+  worker_exit: <function WorkerExit.worker_exit at 0x7ff77ea1b620>
+  django_settings: None
+  backlog: 2048
+  group: 1004
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x7ff77ea16c80>
+  syslog_prefix: None
+  worker_class: sync
+  max_requests_jitter: 0
+  config: gunicorn.conf.py
+  ca_certs: None
+  do_handshake_on_connect: False
+  preload_app: False
+  worker_tmp_dir: None
+  worker_abort: <function WorkerAbort.worker_abort at 0x7ff77ea1b048>
+  errorlog: /home/django/source/edc-pharma/logs/gunicorn-error.log
+  loglevel: debug
+  syslog_addr: udp://localhost:514
+  statsd_host: None
+  statsd_prefix: 
+  bind: ['127.0.0.1:9000']
+  daemon: True
+  threads: 1
+  user: 1004
+  tmp_upload_dir: None
+  forwarded_allow_ips: ['127.0.0.1']
+  pythonpath: None
+  enable_stdio_inheritance: False
+  on_starting: <function OnStarting.on_starting at 0x7ff77ea16488>
+  proc_name: None
+  proxy_protocol: False
+  on_reload: <function OnReload.on_reload at 0x7ff77ea16620>
+  post_fork: <function Postfork.post_fork at 0x7ff77ea16ae8>
+  suppress_ragged_eofs: True
+  post_request: <function PostRequest.post_request at 0x7ff77ea1b488>
+  pidfile: logs/gunicorn-pid
+  spew: False
+  workers: 1
+  ciphers: TLSv1
+  pre_fork: <function Prefork.pre_fork at 0x7ff77ea16950>
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x7ff77ea1b7b8>
+[2016-11-16 08:16:26 +0200] [15909] [INFO] Starting gunicorn 19.6.0
+[2016-11-16 08:16:26 +0200] [15909] [DEBUG] Arbiter booted
+[2016-11-16 08:16:26 +0200] [15909] [INFO] Listening at: http://127.0.0.1:9000 (15909)
+[2016-11-16 08:16:26 +0200] [15909] [INFO] Using worker: sync
+[2016-11-16 08:16:26 +0200] [15914] [INFO] Booting worker with pid: 15914
+[2016-11-16 08:16:26 +0200] [15909] [DEBUG] 1 workers
+[2016-11-16 08:16:29 +0200] [15914] [DEBUG] GET /
+[2016-11-16 08:16:29 +0200] [15914] [DEBUG] GET /accounts/login/
+[2016-11-16 08:16:36 +0200] [15914] [DEBUG] POST /accounts/login/
+[2016-11-16 08:16:45 +0200] [15914] [DEBUG] POST /accounts/login/
+[2016-11-16 08:16:45 +0200] [15914] [DEBUG] GET /
+[2016-11-16 08:16:47 +0200] [15914] [DEBUG] GET /2/
+[2016-11-16 08:16:49 +0200] [15914] [DEBUG] GET /3/
+[2016-11-16 08:16:50 +0200] [15914] [DEBUG] GET /4/
+[2016-11-16 08:16:51 +0200] [15914] [DEBUG] GET /patient_record/283-3-0024-7/
+[2016-11-16 08:16:51 +0200] [15914] [DEBUG] GET /patient_record/283-3-0024-7/
+[2016-11-16 08:17:18 +0200] [15914] [DEBUG] GET /5/
+[2016-11-16 08:17:19 +0200] [15914] [DEBUG] GET /6/
+[2016-11-16 08:17:20 +0200] [15914] [DEBUG] GET /7/
+[2016-11-16 08:17:21 +0200] [15914] [DEBUG] GET /8/
+[2016-11-16 08:17:22 +0200] [15914] [DEBUG] GET /7/
+[2016-11-16 08:17:24 +0200] [15914] [DEBUG] GET /6/
+[2016-11-16 08:17:26 +0200] [15914] [DEBUG] GET /5/
+[2016-11-16 08:17:30 +0200] [15914] [DEBUG] GET /4/
+[2016-11-16 08:17:31 +0200] [15914] [DEBUG] GET /3/
+[2016-11-16 08:18:02 +0200] [15914] [DEBUG] GET /
+[2016-11-16 08:18:04 +0200] [15914] [DEBUG] GET /logout
+[2016-11-16 08:18:04 +0200] [15914] [DEBUG] GET /login
+[2016-11-16 08:18:10 +0200] [15914] [DEBUG] POST /login
+[2016-11-16 08:18:19 +0200] [15914] [DEBUG] POST /login
+[2016-11-16 08:18:56 +0200] [15909] [INFO] Handling signal: term
+[2016-11-16 08:18:56 +0200] [15914] [INFO] Worker exiting (pid: 15914)
+[2016-11-16 08:18:56 +0200] [15909] [INFO] Shutting down: Master
+[2016-11-16 08:18:58 +0200] [15958] [DEBUG] Current configuration:
+  certfile: None
+  limit_request_field_size: 8190
+  graceful_timeout: 30
+  chdir: /home/django/source/edc-pharma
+  raw_env: []
+  user: 1004
+  umask: 0
+  proc_name: None
+  ssl_version: 3
+  default_proc_name: edc_pharma.wsgi
+  keepalive: 2
+  on_starting: <function OnStarting.on_starting at 0x7fc8d91ba488>
+  pidfile: logs/gunicorn-pid
+  tmp_upload_dir: None
+  secure_scheme_headers: {'X-FORWARDED-SSL': 'on', 'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https'}
+  paste: None
+  errorlog: /home/django/source/edc-pharma/logs/gunicorn-error.log
+  when_ready: <function WhenReady.when_ready at 0x7fc8d91ba7b8>
+  keyfile: None
+  check_config: False
+  pre_exec: <function PreExec.pre_exec at 0x7fc8d91bf1e0>
+  worker_exit: <function WorkerExit.worker_exit at 0x7fc8d91bf620>
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x7fc8d91bf7b8>
+  capture_output: False
+  statsd_host: None
+  workers: 1
+  worker_class: sync
+  max_requests_jitter: 0
+  proxy_allow_ips: ['127.0.0.1']
+  threads: 1
+  loglevel: debug
+  limit_request_line: 4094
+  cert_reqs: 0
+  limit_request_fields: 100
+  post_fork: <function Postfork.post_fork at 0x7fc8d91baae8>
+  config: gunicorn.conf.py
+  enable_stdio_inheritance: False
+  bind: ['127.0.0.1:9000']
+  pythonpath: None
+  logger_class: gunicorn.glogging.Logger
+  pre_request: <function PreRequest.pre_request at 0x7fc8d91bf378>
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  daemon: True
+  worker_connections: 1000
+  timeout: 30
+  accesslog: /home/django/source/edc-pharma/logs/gunicorn-access.log
+  worker_int: <function WorkerInt.worker_int at 0x7fc8d91bae18>
+  sendfile: None
+  post_request: <function PostRequest.post_request at 0x7fc8d91bf488>
+  max_requests: 0
+  syslog_prefix: None
+  suppress_ragged_eofs: True
+  syslog_addr: udp://localhost:514
+  spew: False
+  preload_app: False
+  do_handshake_on_connect: False
+  forwarded_allow_ips: ['127.0.0.1']
+  django_settings: None
+  ca_certs: None
+  reload: False
+  on_reload: <function OnReload.on_reload at 0x7fc8d91ba620>
+  syslog_facility: user
+  statsd_prefix: 
+  backlog: 2048
+  logconfig: None
+  pre_fork: <function Prefork.pre_fork at 0x7fc8d91ba950>
+  worker_abort: <function WorkerAbort.worker_abort at 0x7fc8d91bf048>
+  worker_tmp_dir: None
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x7fc8d91bac80>
+  on_exit: <function OnExit.on_exit at 0x7fc8d91bf950>
+  group: 1004
+  ciphers: TLSv1
+  syslog: False
+  proxy_protocol: False
+[2016-11-16 08:18:58 +0200] [15958] [INFO] Starting gunicorn 19.6.0
+[2016-11-16 08:18:58 +0200] [15958] [DEBUG] Arbiter booted
+[2016-11-16 08:18:58 +0200] [15958] [INFO] Listening at: http://127.0.0.1:9000 (15958)
+[2016-11-16 08:18:58 +0200] [15958] [INFO] Using worker: sync
+[2016-11-16 08:18:58 +0200] [15963] [INFO] Booting worker with pid: 15963
+[2016-11-16 08:18:58 +0200] [15958] [DEBUG] 1 workers
+[2016-11-16 08:19:00 +0200] [15963] [DEBUG] GET /login
+[2016-11-16 08:19:28 +0200] [15963] [DEBUG] POST /login
+[2016-11-16 08:19:28 +0200] [15963] [DEBUG] GET /home/
+[2016-11-16 08:19:31 +0200] [15963] [DEBUG] GET /admin/auth/user/4/change/
+[2016-11-16 08:19:31 +0200] [15963] [DEBUG] GET /admin/jsi18n/
+[2016-11-16 08:19:34 +0200] [15963] [DEBUG] GET /admin/auth/
+[2016-11-16 08:19:36 +0200] [15963] [DEBUG] GET /admin/auth/user/
+[2016-11-16 08:19:36 +0200] [15963] [DEBUG] GET /admin/jsi18n/
+[2016-11-16 08:19:40 +0200] [15963] [DEBUG] GET /admin/auth/user/1/change/
+[2016-11-16 08:19:40 +0200] [15963] [DEBUG] GET /admin/jsi18n/
+[2016-11-16 08:19:47 +0200] [15963] [DEBUG] GET /admin/auth/user/
+[2016-11-16 08:20:15 +0200] [15963] [DEBUG] GET /admin/logout/
+[2016-11-16 08:20:15 +0200] [15963] [DEBUG] GET /login
+[2016-11-16 08:20:20 +0200] [15963] [DEBUG] POST /login
+[2016-11-16 08:20:20 +0200] [15963] [DEBUG] GET /home/
+[2016-11-16 08:20:22 +0200] [15963] [DEBUG] GET /2/
+[2016-11-16 08:20:24 +0200] [15963] [DEBUG] GET /3/
+[2016-11-16 08:20:25 +0200] [15963] [DEBUG] GET /4/
+[2016-11-16 08:20:26 +0200] [15963] [DEBUG] GET /5/
+[2016-11-16 08:20:28 +0200] [15963] [DEBUG] GET /4/
+[2016-11-16 08:20:33 +0200] [15963] [DEBUG] GET /5/
+[2016-11-16 08:20:35 +0200] [15963] [DEBUG] GET /6/
+[2016-11-16 08:20:37 +0200] [15963] [DEBUG] GET /7/
+[2016-11-16 08:20:38 +0200] [15963] [DEBUG] GET /8/
+[2016-11-16 08:20:42 +0200] [15963] [DEBUG] GET /7/
+[2016-11-16 08:20:44 +0200] [15963] [DEBUG] GET /6/
+[2016-11-16 08:20:46 +0200] [15963] [DEBUG] GET /7/
+[2016-11-16 08:20:48 +0200] [15963] [DEBUG] GET /6/
+[2016-11-16 08:20:54 +0200] [15963] [DEBUG] POST /
+[2016-11-16 08:21:00 +0200] [15963] [DEBUG] GET /patient_record/283-3-0020-5/
+[2016-11-16 08:21:00 +0200] [15963] [DEBUG] GET /patient_record/283-3-0020-5/
+[2016-11-16 08:21:04 +0200] [15963] [DEBUG] GET /admin/edc_pharma/dispense/be94277a-b72e-4cd5-a546-99ebd65d5f9b/change/
+[2016-11-16 08:21:05 +0200] [15963] [DEBUG] GET /admin/jsi18n/
+[2016-11-16 10:24:24 +0200] [15963] [DEBUG] GET /
+[2016-11-16 10:30:22 +0200] [15963] [DEBUG] GET /
+[2016-11-16 10:30:22 +0200] [15963] [DEBUG] GET /accounts/login/
+[2016-11-16 10:30:41 +0200] [15963] [DEBUG] POST /accounts/login/
+[2016-11-16 10:30:56 +0200] [15963] [DEBUG] POST /accounts/login/
+[2016-11-16 10:30:56 +0200] [15963] [DEBUG] GET /
+[2016-11-16 10:31:10 +0200] [15963] [DEBUG] POST /
+[2016-11-16 10:31:14 +0200] [15963] [DEBUG] GET /patient_record/283-3-0020-5/
+[2016-11-16 10:31:14 +0200] [15963] [DEBUG] GET /patient_record/283-3-0020-5/
+[2016-11-16 10:31:18 +0200] [15963] [DEBUG] GET /admin/edc_pharma/dispense/be94277a-b72e-4cd5-a546-99ebd65d5f9b/change/
+[2016-11-16 10:31:18 +0200] [15963] [DEBUG] GET /admin/jsi18n/
+[2016-11-16 10:31:32 +0200] [15963] [DEBUG] GET /admin/edc_pharma/dispense/add/
+[2016-11-16 10:31:32 +0200] [15963] [DEBUG] GET /admin/jsi18n/
+[2016-11-16 10:33:05 +0200] [15963] [DEBUG] POST /admin/edc_pharma/dispense/add/
+[2016-11-16 10:33:05 +0200] [15963] [DEBUG] GET /admin/jsi18n/
+[2016-11-16 10:33:44 +0200] [15963] [DEBUG] POST /admin/edc_pharma/dispense/add/
+[2016-11-16 10:33:44 +0200] [15963] [DEBUG] GET /admin/jsi18n/
+[2016-11-16 10:34:02 +0200] [15963] [DEBUG] POST /admin/edc_pharma/dispense/add/
+[2016-11-16 10:34:03 +0200] [15963] [DEBUG] GET /admin/jsi18n/
+[2016-11-16 10:34:30 +0200] [15963] [DEBUG] POST /admin/edc_pharma/dispense/add/
+[2016-11-16 10:34:31 +0200] [15963] [DEBUG] GET /patient_record/283-3-0020-5/
+[2016-11-16 10:34:31 +0200] [15963] [DEBUG] GET /patient_record/283-3-0020-5/
+[2016-11-16 10:34:41 +0200] [15963] [DEBUG] GET /admin/edc_pharma/dispense/add/
+[2016-11-16 10:34:41 +0200] [15963] [DEBUG] GET /admin/jsi18n/
+[2016-11-16 10:34:47 +0200] [15963] [DEBUG] GET /
+[2016-11-16 10:35:03 +0200] [15963] [DEBUG] POST /
+[2016-11-16 10:35:09 +0200] [15963] [DEBUG] GET /patient_record/283-3-0020-5/
+[2016-11-16 10:35:10 +0200] [15963] [DEBUG] GET /patient_record/283-3-0020-5/
+[2016-11-16 10:35:19 +0200] [15963] [DEBUG] GET /dispense_print/283-3-0020-5/564c06da-2e37-48bb-8a19-9efa0d2ef148/
+[2016-11-16 10:35:20 +0200] [15963] [DEBUG] GET /dispense_print/283-3-0020-5/564c06da-2e37-48bb-8a19-9efa0d2ef148/
+[2016-11-16 10:35:38 +0200] [15963] [DEBUG] GET /logout
+[2016-11-16 10:35:38 +0200] [15963] [DEBUG] GET /login
+[2016-11-16 10:37:52 +0200] [15963] [DEBUG] POST /login
+[2016-11-16 10:37:53 +0200] [15963] [DEBUG] GET /home/
+[2016-11-16 10:38:15 +0200] [15963] [DEBUG] POST /
+[2016-11-16 10:38:35 +0200] [15963] [DEBUG] GET /admin/edc_pharma/patient/371f61fc-1db4-4ced-ae41-931c74e89075/change/
+[2016-11-16 10:38:37 +0200] [15963] [DEBUG] GET /admin/jsi18n/
+[2016-11-16 10:39:03 +0200] [15963] [DEBUG] GET /admin/edc_pharma/
+[2016-11-16 10:39:11 +0200] [15963] [DEBUG] GET /admin/edc_pharma/medication/
+[2016-11-16 10:39:12 +0200] [15963] [DEBUG] GET /admin/jsi18n/
+[2016-11-16 10:39:17 +0200] [15963] [DEBUG] GET /admin/edc_pharma/medication/fee23e8f-94a7-4b6a-b694-d5920951703c/change/
+[2016-11-16 10:39:17 +0200] [15963] [DEBUG] GET /admin/jsi18n/
+[2016-11-16 10:40:40 +0200] [15963] [DEBUG] GET /admin/edc_pharma/protocol/047425b5-ab21-4c74-a2c5-bc249d7e4935/change/
+[2016-11-16 10:41:00 +0200] [15963] [DEBUG] GET /admin/jsi18n/
+[2016-11-16 10:41:04 +0200] [15963] [DEBUG] GET /admin/edc_pharma/protocol/047425b5-ab21-4c74-a2c5-bc249d7e4935/change/
+[2016-11-16 10:41:07 +0200] [15963] [DEBUG] GET /admin/jsi18n/
+[2016-11-16 10:41:40 +0200] [15963] [DEBUG] POST /admin/edc_pharma/protocol/047425b5-ab21-4c74-a2c5-bc249d7e4935/change/
+[2016-11-16 10:42:47 +0200] [15963] [DEBUG] POST /admin/edc_pharma/medication/fee23e8f-94a7-4b6a-b694-d5920951703c/change/
+[2016-11-16 10:42:47 +0200] [15963] [DEBUG] GET /admin/edc_pharma/medication/
+[2016-11-16 10:42:47 +0200] [15963] [DEBUG] GET /admin/jsi18n/
+[2016-11-16 10:42:56 +0200] [15963] [DEBUG] GET /admin/
+[2016-11-16 10:42:59 +0200] [15963] [DEBUG] GET /admin/edc_pharma/dispense/
+[2016-11-16 10:43:00 +0200] [15963] [DEBUG] GET /admin/jsi18n/
+[2016-11-16 10:43:13 +0200] [15963] [DEBUG] GET /admin/edc_pharma/dispense/
+[2016-11-16 10:43:14 +0200] [15963] [DEBUG] GET /admin/jsi18n/
+[2016-11-16 10:43:22 +0200] [15963] [DEBUG] GET /admin/edc_pharma/dispense/
+[2016-11-16 10:43:23 +0200] [15963] [DEBUG] GET /admin/jsi18n/
+[2016-11-16 10:43:28 +0200] [15963] [DEBUG] GET /admin/
+[2016-11-16 10:43:39 +0200] [15963] [DEBUG] GET /admin/edc_pharma/dispense/
+[2016-11-16 10:43:39 +0200] [15963] [DEBUG] GET /admin/jsi18n/
+[2016-11-16 10:43:46 +0200] [15963] [DEBUG] GET /admin/edc_pharma/dispense/564c06da-2e37-48bb-8a19-9efa0d2ef148/change/
+[2016-11-16 10:43:47 +0200] [15963] [DEBUG] GET /admin/jsi18n/
+[2016-11-16 10:44:02 +0200] [15963] [DEBUG] POST /admin/edc_pharma/dispense/564c06da-2e37-48bb-8a19-9efa0d2ef148/change/
+[2016-11-16 10:44:02 +0200] [15963] [DEBUG] GET /admin/jsi18n/
+[2016-11-16 10:44:11 +0200] [15963] [DEBUG] GET /admin/edc_pharma/dispense/564c06da-2e37-48bb-8a19-9efa0d2ef148/change/
+[2016-11-16 10:44:15 +0200] [15963] [DEBUG] POST /admin/edc_pharma/dispense/564c06da-2e37-48bb-8a19-9efa0d2ef148/change/
+[2016-11-16 10:44:17 +0200] [15963] [DEBUG] GET /admin/jsi18n/
+[2016-11-16 10:44:23 +0200] [15963] [DEBUG] GET /admin/
+[2016-11-16 10:44:36 +0200] [15963] [DEBUG] GET /admin/edc_pharma/medication/fee23e8f-94a7-4b6a-b694-d5920951703c/change/
+[2016-11-16 10:44:37 +0200] [15963] [DEBUG] GET /admin/jsi18n/
+[2016-11-16 10:44:43 +0200] [15963] [DEBUG] POST /admin/edc_pharma/medication/fee23e8f-94a7-4b6a-b694-d5920951703c/change/
+[2016-11-16 10:44:44 +0200] [15963] [DEBUG] GET /admin/edc_pharma/medication/
+[2016-11-16 10:44:44 +0200] [15963] [DEBUG] GET /admin/jsi18n/
+[2016-11-16 10:44:48 +0200] [15963] [DEBUG] GET /admin/edc_pharma/medication/fee23e8f-94a7-4b6a-b694-d5920951703c/change/
+[2016-11-16 10:44:48 +0200] [15963] [DEBUG] GET /admin/jsi18n/
+[2016-11-16 10:44:51 +0200] [15963] [DEBUG] POST /admin/edc_pharma/medication/fee23e8f-94a7-4b6a-b694-d5920951703c/change/
+[2016-11-16 10:44:51 +0200] [15963] [DEBUG] GET /admin/edc_pharma/medication/
+[2016-11-16 10:44:51 +0200] [15963] [DEBUG] GET /admin/jsi18n/
+[2016-11-16 10:44:53 +0200] [15963] [DEBUG] GET /admin/
+[2016-11-16 10:44:56 +0200] [15963] [DEBUG] GET /admin/edc_pharma/patient/
+[2016-11-16 10:44:57 +0200] [15963] [DEBUG] GET /admin/jsi18n/
+[2016-11-16 10:45:06 +0200] [15963] [DEBUG] GET /admin/edc_pharma/patient/371f61fc-1db4-4ced-ae41-931c74e89075/change/
+[2016-11-16 10:45:06 +0200] [15963] [DEBUG] GET /admin/jsi18n/
+[2016-11-16 10:45:10 +0200] [15963] [DEBUG] POST /admin/edc_pharma/patient/371f61fc-1db4-4ced-ae41-931c74e89075/change/
+[2016-11-16 10:45:11 +0200] [15963] [DEBUG] GET /admin/edc_pharma/patient/
+[2016-11-16 10:45:11 +0200] [15963] [DEBUG] GET /admin/jsi18n/
+[2016-11-16 10:45:13 +0200] [15963] [DEBUG] GET /admin/
+[2016-11-16 10:45:23 +0200] [15963] [DEBUG] GET /admin/edc_pharma/patient/
+[2016-11-16 10:45:23 +0200] [15963] [DEBUG] GET /admin/jsi18n/
+[2016-11-16 10:45:53 +0200] [15963] [DEBUG] GET /admin/edc_pharma/patient/371f61fc-1db4-4ced-ae41-931c74e89075/change/
+[2016-11-16 10:45:53 +0200] [15963] [DEBUG] GET /admin/jsi18n/
+[2016-11-16 10:45:56 +0200] [15963] [DEBUG] GET /admin/edc_pharma/patient/371f61fc-1db4-4ced-ae41-931c74e89075/history/
+[2016-11-16 10:46:01 +0200] [15963] [DEBUG] GET /admin/edc_pharma/
+[2016-11-16 10:46:04 +0200] [15963] [DEBUG] GET /admin/edc_pharma/dispense/
+[2016-11-16 10:46:04 +0200] [15963] [DEBUG] GET /admin/jsi18n/
+[2016-11-16 10:46:11 +0200] [15963] [DEBUG] GET /admin/edc_pharma/dispense/564c06da-2e37-48bb-8a19-9efa0d2ef148/change/
+[2016-11-16 10:46:11 +0200] [15963] [DEBUG] GET /admin/jsi18n/
+[2016-11-16 10:46:17 +0200] [15963] [DEBUG] GET /admin/edc_pharma/
+[2016-11-16 10:46:24 +0200] [15963] [DEBUG] GET /admin/edc_pharma/dispense/
+[2016-11-16 10:46:24 +0200] [15963] [DEBUG] GET /admin/jsi18n/
+[2016-11-16 10:46:33 +0200] [15963] [DEBUG] GET /admin/
+[2016-11-16 10:46:38 +0200] [15963] [DEBUG] GET /admin/edc_pharma/dispense/
+[2016-11-16 10:46:39 +0200] [15963] [DEBUG] GET /admin/jsi18n/
+[2016-11-16 10:46:51 +0200] [15963] [DEBUG] GET /admin/edc_pharma/dispense/add/
+[2016-11-16 10:46:51 +0200] [15963] [DEBUG] GET /admin/jsi18n/
+[2016-11-16 10:46:55 +0200] [15963] [DEBUG] GET /admin/
+[2016-11-16 10:46:59 +0200] [15963] [DEBUG] GET /admin/edc_pharma/dispense/
+[2016-11-16 10:47:00 +0200] [15963] [DEBUG] GET /admin/jsi18n/
+[2016-11-16 10:47:06 +0200] [15963] [DEBUG] GET /admin/edc_pharma/dispense/be94277a-b72e-4cd5-a546-99ebd65d5f9b/change/
+[2016-11-16 10:47:08 +0200] [15963] [DEBUG] GET /admin/jsi18n/
+[2016-11-16 10:47:22 +0200] [15963] [DEBUG] POST /admin/edc_pharma/dispense/be94277a-b72e-4cd5-a546-99ebd65d5f9b/change/
+[2016-11-16 10:47:23 +0200] [15963] [DEBUG] GET /admin/jsi18n/
+[2016-11-16 10:47:50 +0200] [15963] [DEBUG] POST /admin/edc_pharma/dispense/be94277a-b72e-4cd5-a546-99ebd65d5f9b/change/
+[2016-11-16 10:47:50 +0200] [15963] [DEBUG] GET /admin/jsi18n/
+[2016-11-16 10:48:03 +0200] [15963] [DEBUG] GET /admin/
+[2016-11-16 10:48:09 +0200] [15963] [DEBUG] GET /admin/edc_pharma/site/
+[2016-11-16 10:48:10 +0200] [15963] [DEBUG] GET /admin/jsi18n/
+[2016-11-16 10:48:19 +0200] [15963] [DEBUG] GET /admin/
+[2016-11-16 10:48:21 +0200] [15963] [DEBUG] GET /admin/edc_pharma/dispense/
+[2016-11-16 10:48:22 +0200] [15963] [DEBUG] GET /admin/jsi18n/
+[2016-11-16 10:48:26 +0200] [15963] [DEBUG] GET /admin/edc_pharma/dispense/be94277a-b72e-4cd5-a546-99ebd65d5f9b/change/
+[2016-11-16 10:48:26 +0200] [15963] [DEBUG] GET /admin/jsi18n/
+[2016-11-16 10:48:31 +0200] [15963] [DEBUG] POST /admin/edc_pharma/dispense/be94277a-b72e-4cd5-a546-99ebd65d5f9b/change/
+[2016-11-16 10:48:32 +0200] [15963] [DEBUG] GET /admin/jsi18n/
+[2016-11-16 10:48:40 +0200] [15963] [DEBUG] POST /admin/edc_pharma/dispense/be94277a-b72e-4cd5-a546-99ebd65d5f9b/change/
+[2016-11-16 10:48:41 +0200] [15963] [DEBUG] GET /admin/jsi18n/
+[2016-11-16 10:48:45 +0200] [15963] [DEBUG] GET /admin/edc_pharma/dispense/be94277a-b72e-4cd5-a546-99ebd65d5f9b/history/
+[2016-11-16 10:48:48 +0200] [15963] [DEBUG] GET /admin/
+[2016-11-16 10:48:53 +0200] [15963] [DEBUG] GET /admin/edc_pharma/protocol/
+[2016-11-16 10:48:53 +0200] [15963] [DEBUG] GET /admin/jsi18n/
+[2016-11-16 10:48:55 +0200] [15963] [DEBUG] GET /admin/edc_pharma/protocol/047425b5-ab21-4c74-a2c5-bc249d7e4935/change/
+[2016-11-16 10:48:55 +0200] [15963] [DEBUG] GET /admin/jsi18n/
+[2016-11-16 10:48:58 +0200] [15963] [DEBUG] POST /admin/edc_pharma/protocol/047425b5-ab21-4c74-a2c5-bc249d7e4935/change/
+[2016-11-16 10:48:58 +0200] [15963] [DEBUG] GET /admin/edc_pharma/protocol/
+[2016-11-16 10:48:59 +0200] [15963] [DEBUG] GET /admin/jsi18n/
+[2016-11-16 10:49:07 +0200] [15963] [DEBUG] GET /admin/
+[2016-11-16 10:49:09 +0200] [15963] [DEBUG] GET /admin/edc_pharma/dispense/
+[2016-11-16 10:49:09 +0200] [15963] [DEBUG] GET /admin/jsi18n/
+[2016-11-16 10:49:20 +0200] [15963] [DEBUG] GET /admin/edc_pharma/dispense/
+[2016-11-16 10:49:20 +0200] [15963] [DEBUG] GET /admin/jsi18n/
+[2016-11-16 10:49:29 +0200] [15963] [DEBUG] GET /admin/edc_pharma/dispense/add/
+[2016-11-16 10:49:30 +0200] [15963] [DEBUG] GET /admin/jsi18n/
+[2016-11-16 10:49:41 +0200] [15963] [DEBUG] GET /admin/
+[2016-11-16 10:50:01 +0200] [15963] [DEBUG] GET /admin/logout/
+[2016-11-16 10:50:02 +0200] [15963] [DEBUG] GET /login
+[2016-11-16 10:50:11 +0200] [15963] [DEBUG] POST /login
+[2016-11-16 10:50:12 +0200] [15963] [DEBUG] GET /home/
+[2016-11-16 10:50:31 +0200] [15963] [DEBUG] GET /admin/edc_pharma/patient/add/
+[2016-11-16 10:50:31 +0200] [15963] [DEBUG] GET /admin/jsi18n/
+[2016-11-16 10:50:42 +0200] [15963] [DEBUG] GET /patient_record/283-3-0012-1/
+[2016-11-16 10:50:42 +0200] [15963] [DEBUG] GET /patient_record/283-3-0012-1/
+[2016-11-16 10:50:49 +0200] [15963] [DEBUG] GET /admin/edc_pharma/dispense/add/
+[2016-11-16 10:50:50 +0200] [15963] [DEBUG] GET /admin/jsi18n/
+[2016-11-16 12:00:08 +0200] [15963] [DEBUG] GET /
+[2016-11-16 12:00:10 +0200] [15963] [DEBUG] GET /edc/settings/
+[2016-11-16 12:00:10 +0200] [15963] [DEBUG] GET /home/
+[2016-11-16 12:00:12 +0200] [15963] [DEBUG] GET /
+[2016-11-16 12:00:14 +0200] [15963] [DEBUG] GET /edc/settings/
+[2016-11-16 12:00:14 +0200] [15963] [DEBUG] GET /home/
+[2016-11-16 12:00:15 +0200] [15963] [DEBUG] GET /admin/auth/user/7/change/
+[2016-11-16 12:00:15 +0200] [15963] [DEBUG] GET /admin/jsi18n/
+[2016-11-16 12:00:28 +0200] [15963] [DEBUG] GET /admin/auth/
+[2016-11-16 12:00:31 +0200] [15963] [DEBUG] GET /admin/auth/user/
+[2016-11-16 12:00:31 +0200] [15963] [DEBUG] GET /admin/jsi18n/
+[2016-11-16 12:00:36 +0200] [15963] [DEBUG] GET /admin/auth/user/7/change/
+[2016-11-16 12:00:36 +0200] [15963] [DEBUG] GET /admin/jsi18n/
+[2016-11-16 12:00:57 +0200] [15963] [DEBUG] GET /admin/auth/
+[2016-11-16 12:00:59 +0200] [15963] [DEBUG] GET /admin/auth/user/
+[2016-11-16 12:00:59 +0200] [15963] [DEBUG] GET /admin/jsi18n/
+[2016-11-16 12:01:08 +0200] [15963] [DEBUG] GET /admin/auth/user/7/change/
+[2016-11-16 12:01:09 +0200] [15963] [DEBUG] GET /admin/jsi18n/
+[2016-11-16 12:01:12 +0200] [15963] [DEBUG] GET /admin/auth/user/
+[2016-11-16 12:41:57 +0200] [15963] [DEBUG] GET /
+[2016-11-16 12:42:04 +0200] [15963] [DEBUG] GET /admin/
+[2016-11-16 12:42:06 +0200] [15963] [DEBUG] GET /admin/edc_pharma/dispense/add/
+[2016-11-16 12:42:07 +0200] [15963] [DEBUG] GET /admin/jsi18n/
+[2016-11-16 14:49:24 +0200] [15963] [DEBUG] GET /
+[2016-11-16 14:49:25 +0200] [15963] [DEBUG] GET /admin/auth/user/7/change/
+[2016-11-16 14:49:25 +0200] [15963] [DEBUG] GET /admin/jsi18n/
+[2016-11-16 14:49:27 +0200] [15963] [DEBUG] GET /admin/auth/
+[2016-11-16 14:49:28 +0200] [15963] [DEBUG] GET /admin/auth/user/
+[2016-11-16 14:49:28 +0200] [15963] [DEBUG] GET /admin/jsi18n/
+[2016-11-16 14:49:31 +0200] [15963] [DEBUG] GET /admin/auth/user/add/
+[2016-11-16 14:49:31 +0200] [15963] [DEBUG] GET /admin/jsi18n/
+[2016-11-16 14:55:08 +0200] [15963] [DEBUG] GET /admin/auth/user/
+[2016-11-16 14:55:08 +0200] [15963] [DEBUG] GET /admin/jsi18n/
+[2016-11-16 14:55:12 +0200] [15963] [DEBUG] GET /admin/auth/user/3/change/
+[2016-11-16 14:55:12 +0200] [15963] [DEBUG] GET /admin/jsi18n/
+[2016-11-16 14:55:27 +0200] [15963] [DEBUG] GET /admin/auth/user/
+[2016-11-16 14:55:31 +0200] [15963] [DEBUG] GET /admin/auth/
+[2016-11-16 14:55:34 +0200] [15963] [DEBUG] GET /admin/auth/group/
+[2016-11-16 14:55:34 +0200] [15963] [DEBUG] GET /admin/jsi18n/
+[2016-11-16 14:55:37 +0200] [15963] [DEBUG] GET /admin/auth/group/add/
+[2016-11-16 14:55:37 +0200] [15963] [DEBUG] GET /admin/jsi18n/
+[2016-11-16 14:58:51 +0200] [15963] [DEBUG] POST /admin/auth/group/add/
+[2016-11-16 14:58:51 +0200] [15963] [DEBUG] GET /admin/auth/group/
+[2016-11-16 14:58:51 +0200] [15963] [DEBUG] GET /admin/jsi18n/
+[2016-11-16 14:58:54 +0200] [15963] [DEBUG] GET /admin/auth/
+[2016-11-16 14:58:56 +0200] [15963] [DEBUG] GET /admin/auth/group/
+[2016-11-16 14:58:57 +0200] [15963] [DEBUG] GET /admin/jsi18n/
+[2016-11-16 14:58:58 +0200] [15963] [DEBUG] GET /admin/auth/group/1/change/
+[2016-11-16 14:58:58 +0200] [15963] [DEBUG] GET /admin/jsi18n/
+[2016-11-16 14:59:01 +0200] [15963] [DEBUG] GET /admin/auth/group/
+[2016-11-16 14:59:02 +0200] [15963] [DEBUG] GET /admin/auth/
+[2016-11-16 14:59:03 +0200] [15963] [DEBUG] GET /admin/auth/user/
+[2016-11-16 14:59:03 +0200] [15963] [DEBUG] GET /admin/jsi18n/
+[2016-11-16 14:59:09 +0200] [15963] [DEBUG] GET /admin/auth/user/3/change/
+[2016-11-16 14:59:09 +0200] [15963] [DEBUG] GET /admin/jsi18n/
+[2016-11-16 14:59:26 +0200] [15963] [DEBUG] POST /admin/auth/user/3/change/
+[2016-11-16 14:59:26 +0200] [15963] [DEBUG] GET /admin/auth/user/
+[2016-11-16 14:59:26 +0200] [15963] [DEBUG] GET /admin/jsi18n/
+[2016-11-16 14:59:28 +0200] [15963] [DEBUG] GET /admin/auth/user/2/change/
+[2016-11-16 14:59:28 +0200] [15963] [DEBUG] GET /admin/jsi18n/
+[2016-11-16 14:59:35 +0200] [15963] [DEBUG] POST /admin/auth/user/2/change/
+[2016-11-16 14:59:35 +0200] [15963] [DEBUG] GET /admin/auth/user/
+[2016-11-16 14:59:35 +0200] [15963] [DEBUG] GET /admin/jsi18n/
+[2016-11-16 14:59:37 +0200] [15963] [DEBUG] GET /admin/auth/user/2/change/
+[2016-11-16 14:59:37 +0200] [15963] [DEBUG] GET /admin/jsi18n/
+[2016-11-16 14:59:41 +0200] [15963] [DEBUG] GET /admin/auth/user/
+[2016-11-16 14:59:43 +0200] [15963] [DEBUG] GET /admin/auth/user/5/change/
+[2016-11-16 14:59:43 +0200] [15963] [DEBUG] GET /admin/jsi18n/
+[2016-11-16 14:59:54 +0200] [15963] [DEBUG] POST /admin/auth/user/5/change/
+[2016-11-16 14:59:54 +0200] [15963] [DEBUG] GET /admin/auth/user/
+[2016-11-16 14:59:54 +0200] [15963] [DEBUG] GET /admin/jsi18n/
+[2016-11-16 14:59:57 +0200] [15963] [DEBUG] GET /admin/auth/user/4/change/
+[2016-11-16 14:59:57 +0200] [15963] [DEBUG] GET /admin/jsi18n/
+[2016-11-16 15:00:03 +0200] [15963] [DEBUG] POST /admin/auth/user/4/change/
+[2016-11-16 15:00:03 +0200] [15963] [DEBUG] GET /admin/auth/user/
+[2016-11-16 15:00:04 +0200] [15963] [DEBUG] GET /admin/jsi18n/
+[2016-11-16 15:00:07 +0200] [15963] [DEBUG] GET /admin/auth/user/5/change/
+[2016-11-16 15:00:07 +0200] [15963] [DEBUG] GET /admin/jsi18n/
+[2016-11-16 15:00:10 +0200] [15963] [DEBUG] POST /admin/auth/user/5/change/
+[2016-11-16 15:00:10 +0200] [15963] [DEBUG] GET /admin/auth/user/
+[2016-11-16 15:00:10 +0200] [15963] [DEBUG] GET /admin/jsi18n/
+[2016-11-16 15:00:18 +0200] [15963] [DEBUG] GET /admin/auth/user/4/change/
+[2016-11-16 15:00:19 +0200] [15963] [DEBUG] GET /admin/jsi18n/
+[2016-11-16 15:00:24 +0200] [15963] [DEBUG] POST /admin/auth/user/4/change/
+[2016-11-16 15:00:24 +0200] [15963] [DEBUG] GET /admin/auth/user/
+[2016-11-16 15:00:24 +0200] [15963] [DEBUG] GET /admin/jsi18n/
+[2016-11-16 15:00:26 +0200] [15963] [DEBUG] GET /admin/auth/user/5/change/
+[2016-11-16 15:00:26 +0200] [15963] [DEBUG] GET /admin/jsi18n/
+[2016-11-16 15:00:30 +0200] [15963] [DEBUG] POST /admin/auth/user/5/change/
+[2016-11-16 15:00:30 +0200] [15963] [DEBUG] GET /admin/auth/user/
+[2016-11-16 15:00:30 +0200] [15963] [DEBUG] GET /admin/jsi18n/
+[2016-11-16 15:00:32 +0200] [15963] [DEBUG] GET /admin/auth/user/2/change/
+[2016-11-16 15:00:32 +0200] [15963] [DEBUG] GET /admin/jsi18n/
+[2016-11-16 15:00:32 +0200] [15963] [DEBUG] GET /admin/auth/user/
+[2016-11-16 15:00:35 +0200] [15963] [DEBUG] GET /admin/auth/user/2/change/
+[2016-11-16 15:00:35 +0200] [15963] [DEBUG] GET /admin/jsi18n/
+[2016-11-16 15:00:39 +0200] [15963] [DEBUG] POST /admin/auth/user/2/change/
+[2016-11-16 15:00:39 +0200] [15963] [DEBUG] GET /admin/auth/user/
+[2016-11-16 15:00:40 +0200] [15963] [DEBUG] GET /admin/jsi18n/
+[2016-11-16 15:00:41 +0200] [15963] [DEBUG] GET /admin/auth/user/3/change/
+[2016-11-16 15:00:42 +0200] [15963] [DEBUG] GET /admin/jsi18n/
+[2016-11-16 15:00:44 +0200] [15963] [DEBUG] GET /admin/auth/user/
+[2016-11-16 15:00:46 +0200] [15963] [DEBUG] GET /admin/auth/user/2/change/
+[2016-11-16 15:00:46 +0200] [15963] [DEBUG] GET /admin/jsi18n/
+[2016-11-16 15:00:48 +0200] [15963] [DEBUG] GET /admin/auth/user/
+[2016-11-16 15:00:49 +0200] [15963] [DEBUG] GET /admin/auth/user/2/change/
+[2016-11-16 15:00:50 +0200] [15963] [DEBUG] GET /admin/jsi18n/
+[2016-11-16 15:00:52 +0200] [15963] [DEBUG] GET /admin/auth/user/
+[2016-11-16 15:00:54 +0200] [15963] [DEBUG] GET /admin/auth/user/5/change/
+[2016-11-16 15:00:54 +0200] [15963] [DEBUG] GET /admin/jsi18n/
+[2016-11-16 15:00:56 +0200] [15963] [DEBUG] GET /admin/auth/user/
+[2016-11-16 15:00:57 +0200] [15963] [DEBUG] GET /admin/auth/user/4/change/
+[2016-11-16 15:00:58 +0200] [15963] [DEBUG] GET /admin/jsi18n/
+[2016-11-16 15:05:14 +0200] [15963] [DEBUG] GET /
+[2016-11-16 15:17:47 +0200] [15963] [DEBUG] GET /patient_record/283-3-0057-5/
+[2016-11-16 15:17:47 +0200] [15963] [DEBUG] GET /patient_record/283-3-0057-5/
+[2016-11-16 15:17:50 +0200] [15963] [DEBUG] GET /
+[2016-11-16 15:18:52 +0200] [15963] [DEBUG] GET /admin/auth/user/7/change/
+[2016-11-16 15:18:52 +0200] [15963] [DEBUG] GET /admin/jsi18n/
+[2016-11-16 15:41:06 +0200] [15963] [DEBUG] GET /admin/auth/
+[2016-11-17 11:04:30 +0200] [23251] [DEBUG] Current configuration:
+  reload: False
+  statsd_host: None
+  limit_request_line: 4094
+  max_requests: 0
+  daemon: True
+  user: 1004
+  proxy_protocol: False
+  limit_request_fields: 100
+  errorlog: /home/django/source/edc-pharma/logs/gunicorn-error.log
+  loglevel: debug
+  syslog_addr: udp://localhost:514
+  post_fork: <function Postfork.post_fork at 0x7f4438494ae8>
+  post_request: <function PostRequest.post_request at 0x7f4438499488>
+  on_exit: <function OnExit.on_exit at 0x7f4438499950>
+  threads: 1
+  preload_app: False
+  sendfile: None
+  pidfile: logs/gunicorn-pid
+  accesslog: /home/django/source/edc-pharma/logs/gunicorn-access.log
+  syslog_prefix: None
+  keyfile: None
+  on_reload: <function OnReload.on_reload at 0x7f4438494620>
+  syslog: False
+  raw_env: []
+  worker_tmp_dir: None
+  umask: 0
+  pythonpath: None
+  paste: None
+  max_requests_jitter: 0
+  do_handshake_on_connect: False
+  ciphers: TLSv1
+  chdir: /home/django/source/edc-pharma
+  pre_request: <function PreRequest.pre_request at 0x7f4438499378>
+  worker_exit: <function WorkerExit.worker_exit at 0x7f4438499620>
+  default_proc_name: edc_pharma.wsgi
+  ssl_version: 3
+  capture_output: False
+  ca_certs: None
+  bind: ['127.0.0.1:9000']
+  forwarded_allow_ips: ['127.0.0.1']
+  certfile: None
+  keepalive: 2
+  cert_reqs: 0
+  check_config: False
+  logger_class: gunicorn.glogging.Logger
+  timeout: 30
+  spew: False
+  backlog: 2048
+  on_starting: <function OnStarting.on_starting at 0x7f4438494488>
+  when_ready: <function WhenReady.when_ready at 0x7f44384947b8>
+  pre_fork: <function Prefork.pre_fork at 0x7f4438494950>
+  worker_abort: <function WorkerAbort.worker_abort at 0x7f4438499048>
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x7f4438494c80>
+  worker_int: <function WorkerInt.worker_int at 0x7f4438494e18>
+  syslog_facility: user
+  suppress_ragged_eofs: True
+  group: 1004
+  tmp_upload_dir: None
+  statsd_prefix: 
+  pre_exec: <function PreExec.pre_exec at 0x7f44384991e0>
+  django_settings: None
+  secure_scheme_headers: {'X-FORWARDED-SSL': 'on', 'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https'}
+  workers: 1
+  worker_class: sync
+  worker_connections: 1000
+  graceful_timeout: 30
+  config: gunicorn.conf.py
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x7f44384997b8>
+  proxy_allow_ips: ['127.0.0.1']
+  limit_request_field_size: 8190
+  logconfig: None
+  enable_stdio_inheritance: False
+  proc_name: None
+[2016-11-17 11:04:30 +0200] [23251] [INFO] Starting gunicorn 19.6.0
+[2016-11-17 11:04:30 +0200] [23251] [DEBUG] Arbiter booted
+[2016-11-17 11:04:30 +0200] [23251] [INFO] Listening at: http://127.0.0.1:9000 (23251)
+[2016-11-17 11:04:30 +0200] [23251] [INFO] Using worker: sync
+[2016-11-17 11:04:30 +0200] [23255] [INFO] Booting worker with pid: 23255
+[2016-11-17 11:04:30 +0200] [23251] [DEBUG] 1 workers
+[2016-11-17 11:04:36 +0200] [23255] [DEBUG] GET /
+[2016-11-17 11:04:38 +0200] [23255] [DEBUG] GET /admin/auth/user/7/change/
+[2016-11-17 11:04:43 +0200] [23255] [DEBUG] GET /admin/auth/user/
+[2016-11-17 11:04:43 +0200] [23255] [DEBUG] GET /admin/jsi18n/
+[2016-11-17 11:04:47 +0200] [23255] [DEBUG] GET /admin/auth/user/3/change/
+[2016-11-17 11:05:09 +0200] [23251] [INFO] Handling signal: term
+[2016-11-17 11:05:09 +0200] [23255] [INFO] Worker exiting (pid: 23255)
+[2016-11-17 11:05:09 +0200] [23251] [INFO] Shutting down: Master
+[2016-11-17 11:05:11 +0200] [23275] [DEBUG] Current configuration:
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-SSL': 'on', 'X-FORWARDED-PROTO': 'https'}
+  suppress_ragged_eofs: True
+  limit_request_fields: 100
+  graceful_timeout: 30
+  sendfile: None
+  on_exit: <function OnExit.on_exit at 0x7fd2d7f76950>
+  syslog_addr: udp://localhost:514
+  user: 1004
+  limit_request_field_size: 8190
+  logconfig: None
+  statsd_host: None
+  proc_name: None
+  tmp_upload_dir: None
+  threads: 1
+  worker_int: <function WorkerInt.worker_int at 0x7fd2d7f71e18>
+  accesslog: /home/django/source/edc-pharma/logs/gunicorn-access.log
+  logger_class: gunicorn.glogging.Logger
+  ca_certs: None
+  worker_exit: <function WorkerExit.worker_exit at 0x7fd2d7f76620>
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x7fd2d7f767b8>
+  reload: False
+  check_config: False
+  bind: ['127.0.0.1:9000']
+  default_proc_name: edc_pharma.wsgi
+  daemon: True
+  syslog_prefix: None
+  post_fork: <function Postfork.post_fork at 0x7fd2d7f71ae8>
+  group: 1004
+  forwarded_allow_ips: ['127.0.0.1']
+  on_reload: <function OnReload.on_reload at 0x7fd2d7f71620>
+  worker_class: sync
+  pythonpath: None
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x7fd2d7f71c80>
+  config: gunicorn.conf.py
+  max_requests_jitter: 0
+  ciphers: TLSv1
+  enable_stdio_inheritance: False
+  paste: None
+  keyfile: None
+  spew: False
+  preload_app: False
+  chdir: /home/django/source/edc-pharma
+  raw_env: []
+  pidfile: logs/gunicorn-pid
+  worker_tmp_dir: None
+  umask: 0
+  proxy_protocol: False
+  ssl_version: 3
+  loglevel: debug
+  cert_reqs: 0
+  syslog: False
+  statsd_prefix: 
+  max_requests: 0
+  proxy_allow_ips: ['127.0.0.1']
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  do_handshake_on_connect: False
+  on_starting: <function OnStarting.on_starting at 0x7fd2d7f71488>
+  pre_fork: <function Prefork.pre_fork at 0x7fd2d7f71950>
+  worker_abort: <function WorkerAbort.worker_abort at 0x7fd2d7f76048>
+  pre_exec: <function PreExec.pre_exec at 0x7fd2d7f761e0>
+  backlog: 2048
+  worker_connections: 1000
+  django_settings: None
+  workers: 1
+  when_ready: <function WhenReady.when_ready at 0x7fd2d7f717b8>
+  pre_request: <function PreRequest.pre_request at 0x7fd2d7f76378>
+  post_request: <function PostRequest.post_request at 0x7fd2d7f76488>
+  errorlog: /home/django/source/edc-pharma/logs/gunicorn-error.log
+  capture_output: False
+  syslog_facility: user
+  timeout: 30
+  keepalive: 2
+  limit_request_line: 4094
+[2016-11-17 11:05:11 +0200] [23275] [INFO] Starting gunicorn 19.6.0
+[2016-11-17 11:05:11 +0200] [23275] [DEBUG] Arbiter booted
+[2016-11-17 11:05:11 +0200] [23275] [INFO] Listening at: http://127.0.0.1:9000 (23275)
+[2016-11-17 11:05:11 +0200] [23275] [INFO] Using worker: sync
+[2016-11-17 11:05:11 +0200] [23280] [INFO] Booting worker with pid: 23280
+[2016-11-17 11:05:11 +0200] [23275] [DEBUG] 1 workers
+[2016-11-17 11:05:13 +0200] [23280] [DEBUG] GET /admin/auth/user/3/change/
+[2016-11-17 11:06:08 +0200] [23275] [INFO] Handling signal: term
+[2016-11-17 11:06:08 +0200] [23280] [INFO] Worker exiting (pid: 23280)
+[2016-11-17 11:06:08 +0200] [23275] [INFO] Shutting down: Master
+[2016-11-17 11:06:12 +0200] [23332] [DEBUG] Current configuration:
+  config: gunicorn.conf.py
+  worker_abort: <function WorkerAbort.worker_abort at 0x7f5c2024e048>
+  do_handshake_on_connect: False
+  worker_class: sync
+  limit_request_field_size: 8190
+  post_request: <function PostRequest.post_request at 0x7f5c2024e488>
+  preload_app: False
+  sendfile: None
+  daemon: True
+  raw_env: []
+  worker_tmp_dir: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-SSL': 'on', 'X-FORWARDED-PROTO': 'https'}
+  proxy_protocol: False
+  proxy_allow_ips: ['127.0.0.1']
+  errorlog: /home/django/source/edc-pharma/logs/gunicorn-error.log
+  workers: 1
+  on_exit: <function OnExit.on_exit at 0x7f5c2024e950>
+  syslog: False
+  syslog_prefix: None
+  cert_reqs: 0
+  post_fork: <function Postfork.post_fork at 0x7f5c20249ae8>
+  accesslog: /home/django/source/edc-pharma/logs/gunicorn-access.log
+  logconfig: None
+  user: 1004
+  bind: ['127.0.0.1:9000']
+  limit_request_fields: 100
+  capture_output: False
+  reload: False
+  statsd_prefix: 
+  default_proc_name: edc_pharma.wsgi
+  django_settings: None
+  certfile: None
+  pre_request: <function PreRequest.pre_request at 0x7f5c2024e378>
+  syslog_facility: user
+  pidfile: logs/gunicorn-pid
+  umask: 0
+  enable_stdio_inheritance: False
+  worker_connections: 1000
+  max_requests_jitter: 0
+  backlog: 2048
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  limit_request_line: 4094
+  loglevel: debug
+  logger_class: gunicorn.glogging.Logger
+  ca_certs: None
+  tmp_upload_dir: None
+  suppress_ragged_eofs: True
+  ciphers: TLSv1
+  keepalive: 2
+  on_reload: <function OnReload.on_reload at 0x7f5c20249620>
+  worker_int: <function WorkerInt.worker_int at 0x7f5c20249e18>
+  spew: False
+  chdir: /home/django/source/edc-pharma
+  forwarded_allow_ips: ['127.0.0.1']
+  when_ready: <function WhenReady.when_ready at 0x7f5c202497b8>
+  statsd_host: None
+  worker_exit: <function WorkerExit.worker_exit at 0x7f5c2024e620>
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x7f5c2024e7b8>
+  max_requests: 0
+  timeout: 30
+  pythonpath: None
+  paste: None
+  on_starting: <function OnStarting.on_starting at 0x7f5c20249488>
+  syslog_addr: udp://localhost:514
+  keyfile: None
+  group: 1004
+  graceful_timeout: 30
+  ssl_version: 3
+  pre_fork: <function Prefork.pre_fork at 0x7f5c20249950>
+  pre_exec: <function PreExec.pre_exec at 0x7f5c2024e1e0>
+  check_config: False
+  threads: 1
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x7f5c20249c80>
+  proc_name: None
+[2016-11-17 11:06:12 +0200] [23332] [INFO] Starting gunicorn 19.6.0
+[2016-11-17 11:06:12 +0200] [23332] [DEBUG] Arbiter booted
+[2016-11-17 11:06:12 +0200] [23332] [INFO] Listening at: http://127.0.0.1:9000 (23332)
+[2016-11-17 11:06:12 +0200] [23332] [INFO] Using worker: sync
+[2016-11-17 11:06:12 +0200] [23337] [INFO] Booting worker with pid: 23337
+[2016-11-17 11:06:12 +0200] [23332] [DEBUG] 1 workers
+[2016-11-17 11:06:14 +0200] [23337] [DEBUG] GET /admin/auth/user/3/change/
+[2016-11-17 11:06:20 +0200] [23337] [DEBUG] GET /admin
+[2016-11-17 11:06:22 +0200] [23337] [DEBUG] GET /admin/auth/user/7/change/
+[2016-11-17 11:08:22 +0200] [23337] [DEBUG] GET /
+[2016-11-17 11:08:23 +0200] [23337] [DEBUG] GET /admin/auth/user/7/change/
+[2016-11-17 11:15:19 +0200] [23332] [INFO] Handling signal: term
+[2016-11-17 11:15:19 +0200] [23337] [INFO] Worker exiting (pid: 23337)
+[2016-11-17 11:15:19 +0200] [23332] [INFO] Shutting down: Master
+[2016-11-17 11:15:23 +0200] [23472] [DEBUG] Current configuration:
+  logconfig: None
+  threads: 1
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x7fb333b54c80>
+  worker_abort: <function WorkerAbort.worker_abort at 0x7fb333b59048>
+  worker_exit: <function WorkerExit.worker_exit at 0x7fb333b59620>
+  daemon: True
+  worker_tmp_dir: None
+  proxy_protocol: False
+  proxy_allow_ips: ['127.0.0.1']
+  accesslog: /home/django/source/edc-pharma/logs/gunicorn-access.log
+  keepalive: 2
+  ciphers: TLSv1
+  syslog_prefix: None
+  tmp_upload_dir: None
+  forwarded_allow_ips: ['127.0.0.1']
+  paste: None
+  on_starting: <function OnStarting.on_starting at 0x7fb333b54488>
+  pre_fork: <function Prefork.pre_fork at 0x7fb333b54950>
+  keyfile: None
+  post_fork: <function Postfork.post_fork at 0x7fb333b54ae8>
+  post_request: <function PostRequest.post_request at 0x7fb333b59488>
+  spew: False
+  logger_class: gunicorn.glogging.Logger
+  worker_int: <function WorkerInt.worker_int at 0x7fb333b54e18>
+  syslog_facility: user
+  preload_app: False
+  backlog: 2048
+  pythonpath: None
+  certfile: None
+  when_ready: <function WhenReady.when_ready at 0x7fb333b547b8>
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  enable_stdio_inheritance: False
+  reload: False
+  proc_name: None
+  pidfile: logs/gunicorn-pid
+  limit_request_field_size: 8190
+  worker_connections: 1000
+  config: gunicorn.conf.py
+  max_requests: 0
+  umask: 0
+  bind: ['127.0.0.1:9000']
+  ssl_version: 3
+  suppress_ragged_eofs: True
+  sendfile: None
+  syslog_addr: udp://localhost:514
+  syslog: False
+  statsd_host: None
+  cert_reqs: 0
+  raw_env: []
+  django_settings: None
+  capture_output: False
+  do_handshake_on_connect: False
+  chdir: /home/django/source/edc-pharma
+  on_exit: <function OnExit.on_exit at 0x7fb333b59950>
+  errorlog: /home/django/source/edc-pharma/logs/gunicorn-error.log
+  check_config: False
+  on_reload: <function OnReload.on_reload at 0x7fb333b54620>
+  ca_certs: None
+  worker_class: sync
+  default_proc_name: edc_pharma.wsgi
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x7fb333b597b8>
+  workers: 1
+  max_requests_jitter: 0
+  secure_scheme_headers: {'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-SSL': 'on'}
+  graceful_timeout: 30
+  pre_exec: <function PreExec.pre_exec at 0x7fb333b591e0>
+  pre_request: <function PreRequest.pre_request at 0x7fb333b59378>
+  loglevel: debug
+  group: 1004
+  timeout: 30
+  limit_request_line: 4094
+  limit_request_fields: 100
+  statsd_prefix: 
+  user: 1004
+[2016-11-17 11:15:23 +0200] [23472] [INFO] Starting gunicorn 19.6.0
+[2016-11-17 11:15:23 +0200] [23472] [DEBUG] Arbiter booted
+[2016-11-17 11:15:23 +0200] [23472] [INFO] Listening at: http://127.0.0.1:9000 (23472)
+[2016-11-17 11:15:23 +0200] [23472] [INFO] Using worker: sync
+[2016-11-17 11:15:23 +0200] [23477] [INFO] Booting worker with pid: 23477
+[2016-11-17 11:15:23 +0200] [23472] [DEBUG] 1 workers
+[2016-11-17 11:15:29 +0200] [23477] [DEBUG] GET /
+[2016-11-17 11:15:31 +0200] [23477] [DEBUG] GET /admin/auth/user/7/change/
+[2016-11-17 11:15:55 +0200] [23472] [INFO] Handling signal: hup
+[2016-11-17 11:15:55 +0200] [23472] [INFO] Hang up: Master
+[2016-11-17 11:15:56 +0200] [23472] [DEBUG] Current configuration:
+  logconfig: None
+  threads: 1
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x7fb333b54c80>
+  worker_abort: <function WorkerAbort.worker_abort at 0x7fb333b59048>
+  worker_exit: <function WorkerExit.worker_exit at 0x7fb333b59620>
+  daemon: True
+  worker_tmp_dir: None
+  proxy_protocol: False
+  proxy_allow_ips: ['127.0.0.1']
+  accesslog: /home/django/source/edc-pharma/logs/gunicorn-access.log
+  keepalive: 2
+  ciphers: TLSv1
+  syslog_prefix: None
+  tmp_upload_dir: None
+  forwarded_allow_ips: ['127.0.0.1']
+  paste: None
+  on_starting: <function OnStarting.on_starting at 0x7fb333b54488>
+  pre_fork: <function Prefork.pre_fork at 0x7fb333b54950>
+  keyfile: None
+  post_fork: <function Postfork.post_fork at 0x7fb333b54ae8>
+  post_request: <function PostRequest.post_request at 0x7fb333b59488>
+  spew: False
+  logger_class: gunicorn.glogging.Logger
+  worker_int: <function WorkerInt.worker_int at 0x7fb333b54e18>
+  syslog_facility: user
+  preload_app: False
+  backlog: 2048
+  pythonpath: None
+  certfile: None
+  when_ready: <function WhenReady.when_ready at 0x7fb333b547b8>
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  enable_stdio_inheritance: False
+  reload: False
+  proc_name: None
+  pidfile: logs/gunicorn-pid
+  limit_request_field_size: 8190
+  worker_connections: 1000
+  config: gunicorn.conf.py
+  max_requests: 0
+  umask: 0
+  bind: ['127.0.0.1:9000']
+  ssl_version: 3
+  suppress_ragged_eofs: True
+  sendfile: None
+  syslog_addr: udp://localhost:514
+  syslog: False
+  statsd_host: None
+  cert_reqs: 0
+  raw_env: []
+  django_settings: None
+  capture_output: False
+  do_handshake_on_connect: False
+  chdir: /home/django/source/edc-pharma
+  on_exit: <function OnExit.on_exit at 0x7fb333b59950>
+  errorlog: /home/django/source/edc-pharma/logs/gunicorn-error.log
+  check_config: False
+  on_reload: <function OnReload.on_reload at 0x7fb333b54620>
+  ca_certs: None
+  worker_class: sync
+  default_proc_name: edc_pharma.wsgi
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x7fb333b597b8>
+  workers: 1
+  max_requests_jitter: 0
+  secure_scheme_headers: {'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-SSL': 'on'}
+  graceful_timeout: 30
+  pre_exec: <function PreExec.pre_exec at 0x7fb333b591e0>
+  pre_request: <function PreRequest.pre_request at 0x7fb333b59378>
+  loglevel: debug
+  group: 1004
+  timeout: 30
+  limit_request_line: 4094
+  limit_request_fields: 100
+  statsd_prefix: 
+  user: 1004
+[2016-11-17 11:15:56 +0200] [23472] [INFO] Handling signal: term
+[2016-11-17 11:15:56 +0200] [23592] [INFO] Booting worker with pid: 23592
+[2016-11-17 11:16:26 +0200] [23472] [INFO] Shutting down: Master
+[2016-11-17 11:19:11 +0200] [1827] [DEBUG] Current configuration:
+  limit_request_line: 4094
+  errorlog: /home/django/source/edc-pharma/logs/gunicorn-error.log
+  logconfig: None
+  sendfile: None
+  raw_env: []
+  umask: 0
+  on_reload: <function OnReload.on_reload at 0x7f4e78061620>
+  pre_request: <function PreRequest.pre_request at 0x7f4e78066378>
+  pythonpath: None
+  proxy_protocol: False
+  cert_reqs: 0
+  worker_abort: <function WorkerAbort.worker_abort at 0x7f4e78066048>
+  threads: 1
+  bind: ['127.0.0.1:9000']
+  loglevel: debug
+  worker_class: sync
+  worker_int: <function WorkerInt.worker_int at 0x7f4e78061e18>
+  pre_exec: <function PreExec.pre_exec at 0x7f4e780661e0>
+  worker_exit: <function WorkerExit.worker_exit at 0x7f4e78066620>
+  syslog: False
+  enable_stdio_inheritance: False
+  keepalive: 2
+  group: 1004
+  do_handshake_on_connect: False
+  ciphers: TLSv1
+  on_exit: <function OnExit.on_exit at 0x7f4e78066950>
+  default_proc_name: edc_pharma.wsgi
+  limit_request_field_size: 8190
+  capture_output: False
+  graceful_timeout: 30
+  syslog_facility: user
+  preload_app: False
+  forwarded_allow_ips: ['127.0.0.1']
+  reload: False
+  backlog: 2048
+  limit_request_fields: 100
+  syslog_addr: udp://localhost:514
+  timeout: 30
+  proc_name: None
+  paste: None
+  ca_certs: None
+  pidfile: logs/gunicorn-pid
+  on_starting: <function OnStarting.on_starting at 0x7f4e78061488>
+  pre_fork: <function Prefork.pre_fork at 0x7f4e78061950>
+  statsd_prefix: 
+  workers: 1
+  check_config: False
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x7f4e78061c80>
+  keyfile: None
+  post_fork: <function Postfork.post_fork at 0x7f4e78061ae8>
+  certfile: None
+  worker_connections: 1000
+  logger_class: gunicorn.glogging.Logger
+  config: gunicorn.conf.py
+  user: 1004
+  when_ready: <function WhenReady.when_ready at 0x7f4e780617b8>
+  chdir: /home/django/source/edc-pharma
+  worker_tmp_dir: None
+  statsd_host: None
+  daemon: True
+  post_request: <function PostRequest.post_request at 0x7f4e78066488>
+  suppress_ragged_eofs: True
+  max_requests: 0
+  tmp_upload_dir: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-SSL': 'on', 'X-FORWARDED-PROTO': 'https'}
+  accesslog: /home/django/source/edc-pharma/logs/gunicorn-access.log
+  max_requests_jitter: 0
+  proxy_allow_ips: ['127.0.0.1']
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x7f4e780667b8>
+  django_settings: None
+  spew: False
+  syslog_prefix: None
+  ssl_version: 3
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+[2016-11-17 11:19:11 +0200] [1827] [INFO] Starting gunicorn 19.6.0
+[2016-11-17 11:19:11 +0200] [1827] [DEBUG] Arbiter booted
+[2016-11-17 11:19:11 +0200] [1827] [INFO] Listening at: http://127.0.0.1:9000 (1827)
+[2016-11-17 11:19:11 +0200] [1827] [INFO] Using worker: sync
+[2016-11-17 11:19:11 +0200] [1830] [INFO] Booting worker with pid: 1830
+[2016-11-17 11:19:11 +0200] [1827] [DEBUG] 1 workers
+[2016-11-17 11:19:15 +0200] [1830] [DEBUG] GET /
+[2016-11-17 11:19:20 +0200] [1830] [DEBUG] GET /admin/auth/user/7/change/
+[2016-11-17 11:24:37 +0200] [1827] [INFO] Handling signal: term
+[2016-11-17 11:24:37 +0200] [1830] [INFO] Worker exiting (pid: 1830)
+[2016-11-17 11:24:38 +0200] [1827] [INFO] Shutting down: Master
+[2016-11-17 11:24:40 +0200] [1876] [DEBUG] Current configuration:
+  paste: None
+  cert_reqs: 0
+  proxy_protocol: False
+  post_fork: <function Postfork.post_fork at 0x7f21bed9eae8>
+  keepalive: 2
+  ciphers: TLSv1
+  worker_class: sync
+  pidfile: logs/gunicorn-pid
+  bind: ['127.0.0.1:9000']
+  chdir: /home/django/source/edc-pharma
+  pre_request: <function PreRequest.pre_request at 0x7f21beda3378>
+  backlog: 2048
+  limit_request_line: 4094
+  worker_abort: <function WorkerAbort.worker_abort at 0x7f21beda3048>
+  accesslog: /home/django/source/edc-pharma/logs/gunicorn-access.log
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  capture_output: False
+  config: gunicorn.conf.py
+  spew: False
+  check_config: False
+  workers: 1
+  proxy_allow_ips: ['127.0.0.1']
+  errorlog: /home/django/source/edc-pharma/logs/gunicorn-error.log
+  syslog_addr: udp://localhost:514
+  statsd_prefix: 
+  django_settings: None
+  threads: 1
+  on_starting: <function OnStarting.on_starting at 0x7f21bed9e488>
+  worker_exit: <function WorkerExit.worker_exit at 0x7f21beda3620>
+  worker_connections: 1000
+  timeout: 30
+  sendfile: None
+  pre_fork: <function Prefork.pre_fork at 0x7f21bed9e950>
+  default_proc_name: edc_pharma.wsgi
+  ssl_version: 3
+  ca_certs: None
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x7f21beda37b8>
+  max_requests_jitter: 0
+  on_exit: <function OnExit.on_exit at 0x7f21beda3950>
+  loglevel: debug
+  syslog: False
+  statsd_host: None
+  daemon: True
+  syslog_prefix: None
+  worker_int: <function WorkerInt.worker_int at 0x7f21bed9ee18>
+  post_request: <function PostRequest.post_request at 0x7f21beda3488>
+  graceful_timeout: 30
+  reload: False
+  on_reload: <function OnReload.on_reload at 0x7f21bed9e620>
+  worker_tmp_dir: None
+  user: 1004
+  limit_request_fields: 100
+  preload_app: False
+  tmp_upload_dir: None
+  secure_scheme_headers: {'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-SSL': 'on'}
+  proc_name: None
+  keyfile: None
+  certfile: None
+  suppress_ragged_eofs: True
+  do_handshake_on_connect: False
+  raw_env: []
+  umask: 0
+  logger_class: gunicorn.glogging.Logger
+  enable_stdio_inheritance: False
+  when_ready: <function WhenReady.when_ready at 0x7f21bed9e7b8>
+  limit_request_field_size: 8190
+  group: 1004
+  forwarded_allow_ips: ['127.0.0.1']
+  pythonpath: None
+  logconfig: None
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x7f21bed9ec80>
+  max_requests: 0
+  pre_exec: <function PreExec.pre_exec at 0x7f21beda31e0>
+  syslog_facility: user
+[2016-11-17 11:24:40 +0200] [1876] [INFO] Starting gunicorn 19.6.0
+[2016-11-17 11:24:40 +0200] [1876] [DEBUG] Arbiter booted
+[2016-11-17 11:24:40 +0200] [1876] [INFO] Listening at: http://127.0.0.1:9000 (1876)
+[2016-11-17 11:24:40 +0200] [1876] [INFO] Using worker: sync
+[2016-11-17 11:24:40 +0200] [1879] [INFO] Booting worker with pid: 1879
+[2016-11-17 11:24:40 +0200] [1876] [DEBUG] 1 workers
+[2016-11-17 11:24:45 +0200] [1879] [DEBUG] GET /admin/auth/user/7/change/
+[2016-11-17 11:24:45 +0200] [1879] [DEBUG] Ignoring EPIPE
+[2016-11-17 11:24:48 +0200] [1879] [DEBUG] GET /edc/settings/
+[2016-11-17 11:24:48 +0200] [1879] [DEBUG] GET /home/
+[2016-11-17 11:24:49 +0200] [1879] [DEBUG] GET /admin/auth/user/7/change/
+[2016-11-17 11:53:27 +0200] [1879] [DEBUG] GET /
+[2016-11-17 11:53:29 +0200] [1879] [DEBUG] GET /admin/auth/user/7/change/
+[2016-11-17 12:00:30 +0200] [1876] [INFO] Handling signal: term
+[2016-11-17 12:00:30 +0200] [1879] [INFO] Worker exiting (pid: 1879)
+[2016-11-17 12:00:30 +0200] [1876] [INFO] Shutting down: Master
+[2016-11-17 12:00:44 +0200] [2251] [DEBUG] Current configuration:
+  pythonpath: None
+  on_exit: <function OnExit.on_exit at 0x7f42790c2950>
+  threads: 1
+  worker_exit: <function WorkerExit.worker_exit at 0x7f42790c2620>
+  timeout: 30
+  statsd_prefix: 
+  default_proc_name: edc_pharma.wsgi
+  errorlog: /home/django/source/edc-pharma/logs/gunicorn-error.log
+  django_settings: None
+  chdir: /home/django/source/edc-pharma
+  graceful_timeout: 30
+  syslog_addr: udp://localhost:514
+  enable_stdio_inheritance: False
+  check_config: False
+  user: 1004
+  suppress_ragged_eofs: True
+  syslog: False
+  post_fork: <function Postfork.post_fork at 0x7f42790bdae8>
+  accesslog: /home/django/source/edc-pharma/logs/gunicorn-access.log
+  capture_output: False
+  syslog_prefix: None
+  reload: False
+  spew: False
+  pre_exec: <function PreExec.pre_exec at 0x7f42790c21e0>
+  sendfile: None
+  do_handshake_on_connect: False
+  raw_env: []
+  worker_int: <function WorkerInt.worker_int at 0x7f42790bde18>
+  worker_connections: 1000
+  tmp_upload_dir: None
+  loglevel: debug
+  statsd_host: None
+  limit_request_fields: 100
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x7f42790c27b8>
+  keyfile: None
+  cert_reqs: 0
+  ciphers: TLSv1
+  max_requests_jitter: 0
+  pre_fork: <function Prefork.pre_fork at 0x7f42790bd950>
+  backlog: 2048
+  on_starting: <function OnStarting.on_starting at 0x7f42790bd488>
+  daemon: True
+  ssl_version: 3
+  bind: ['127.0.0.1:9000']
+  on_reload: <function OnReload.on_reload at 0x7f42790bd620>
+  worker_abort: <function WorkerAbort.worker_abort at 0x7f42790c2048>
+  pre_request: <function PreRequest.pre_request at 0x7f42790c2378>
+  worker_class: sync
+  config: gunicorn.conf.py
+  workers: 1
+  syslog_facility: user
+  preload_app: False
+  pidfile: logs/gunicorn-pid
+  worker_tmp_dir: None
+  group: 1004
+  umask: 0
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-SSL': 'on', 'X-FORWARDED-PROTO': 'https'}
+  forwarded_allow_ips: ['127.0.0.1']
+  paste: None
+  proxy_protocol: False
+  max_requests: 0
+  logconfig: None
+  ca_certs: None
+  limit_request_field_size: 8190
+  proxy_allow_ips: ['127.0.0.1']
+  proc_name: None
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  certfile: None
+  keepalive: 2
+  limit_request_line: 4094
+  logger_class: gunicorn.glogging.Logger
+  when_ready: <function WhenReady.when_ready at 0x7f42790bd7b8>
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x7f42790bdc80>
+  post_request: <function PostRequest.post_request at 0x7f42790c2488>
+[2016-11-17 12:00:44 +0200] [2251] [INFO] Starting gunicorn 19.6.0
+[2016-11-17 12:00:44 +0200] [2251] [DEBUG] Arbiter booted
+[2016-11-17 12:00:44 +0200] [2251] [INFO] Listening at: http://127.0.0.1:9000 (2251)
+[2016-11-17 12:00:44 +0200] [2251] [INFO] Using worker: sync
+[2016-11-17 12:00:44 +0200] [2254] [INFO] Booting worker with pid: 2254
+[2016-11-17 12:00:44 +0200] [2251] [DEBUG] 1 workers
+[2016-11-17 12:00:50 +0200] [2254] [DEBUG] GET /
+[2016-11-17 12:00:52 +0200] [2254] [DEBUG] GET /admin/auth/user/7/change/
+[2016-11-17 12:09:41 +0200] [2251] [INFO] Handling signal: term
+[2016-11-17 12:09:41 +0200] [2254] [INFO] Worker exiting (pid: 2254)
+[2016-11-17 12:09:41 +0200] [2251] [INFO] Shutting down: Master
+[2016-11-17 12:12:31 +0200] [2329] [DEBUG] Current configuration:
+  pre_exec: <function PreExec.pre_exec at 0x7f31fba001e0>
+  certfile: None
+  bind: ['127.0.0.1:9000']
+  proxy_protocol: False
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x7f31fb9fbc80>
+  worker_class: sync
+  post_request: <function PostRequest.post_request at 0x7f31fba00488>
+  ssl_version: 3
+  check_config: False
+  limit_request_fields: 100
+  config: gunicorn.conf.py
+  threads: 1
+  worker_exit: <function WorkerExit.worker_exit at 0x7f31fba00620>
+  proc_name: None
+  chdir: /home/django/source/edc-pharma
+  daemon: True
+  raw_env: []
+  pidfile: logs/gunicorn-pid
+  umask: 0
+  secure_scheme_headers: {'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on', 'X-FORWARDED-PROTOCOL': 'ssl'}
+  pythonpath: None
+  worker_int: <function WorkerInt.worker_int at 0x7f31fb9fbe18>
+  limit_request_line: 4094
+  syslog: False
+  max_requests_jitter: 0
+  ciphers: TLSv1
+  syslog_facility: user
+  statsd_host: None
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x7f31fba007b8>
+  worker_tmp_dir: None
+  proxy_allow_ips: ['127.0.0.1']
+  do_handshake_on_connect: False
+  group: 1004
+  on_starting: <function OnStarting.on_starting at 0x7f31fb9fb488>
+  worker_connections: 1000
+  graceful_timeout: 30
+  default_proc_name: edc_pharma.wsgi
+  syslog_addr: udp://localhost:514
+  sendfile: None
+  user: 1004
+  tmp_upload_dir: None
+  workers: 1
+  max_requests: 0
+  keepalive: 2
+  accesslog: /home/django/source/edc-pharma/logs/gunicorn-access.log
+  capture_output: False
+  logconfig: None
+  syslog_prefix: None
+  backlog: 2048
+  preload_app: False
+  forwarded_allow_ips: ['127.0.0.1']
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  loglevel: debug
+  on_reload: <function OnReload.on_reload at 0x7f31fb9fb620>
+  keyfile: None
+  cert_reqs: 0
+  suppress_ragged_eofs: True
+  paste: None
+  timeout: 30
+  worker_abort: <function WorkerAbort.worker_abort at 0x7f31fba00048>
+  spew: False
+  when_ready: <function WhenReady.when_ready at 0x7f31fb9fb7b8>
+  limit_request_field_size: 8190
+  post_fork: <function Postfork.post_fork at 0x7f31fb9fbae8>
+  reload: False
+  errorlog: /home/django/source/edc-pharma/logs/gunicorn-error.log
+  enable_stdio_inheritance: False
+  django_settings: None
+  statsd_prefix: 
+  pre_fork: <function Prefork.pre_fork at 0x7f31fb9fb950>
+  pre_request: <function PreRequest.pre_request at 0x7f31fba00378>
+  on_exit: <function OnExit.on_exit at 0x7f31fba00950>
+  logger_class: gunicorn.glogging.Logger
+  ca_certs: None
+[2016-11-17 12:12:31 +0200] [2329] [INFO] Starting gunicorn 19.6.0
+[2016-11-17 12:12:31 +0200] [2329] [DEBUG] Arbiter booted
+[2016-11-17 12:12:31 +0200] [2329] [INFO] Listening at: http://127.0.0.1:9000 (2329)
+[2016-11-17 12:12:31 +0200] [2329] [INFO] Using worker: sync
+[2016-11-17 12:12:31 +0200] [2334] [INFO] Booting worker with pid: 2334
+[2016-11-17 12:12:32 +0200] [2329] [DEBUG] 1 workers
+[2016-11-17 12:12:37 +0200] [2334] [DEBUG] GET /
+[2016-11-17 12:28:20 +0200] [2329] [INFO] Handling signal: term
+[2016-11-17 12:28:20 +0200] [2334] [INFO] Worker exiting (pid: 2334)
+[2016-11-17 12:28:20 +0200] [2329] [INFO] Shutting down: Master
+[2016-11-17 12:28:23 +0200] [2503] [DEBUG] Current configuration:
+  ssl_version: 3
+  worker_int: <function WorkerInt.worker_int at 0x7f0e75150e18>
+  suppress_ragged_eofs: True
+  when_ready: <function WhenReady.when_ready at 0x7f0e751507b8>
+  enable_stdio_inheritance: False
+  limit_request_line: 4094
+  certfile: None
+  syslog: False
+  sendfile: None
+  worker_class: sync
+  accesslog: /home/django/source/edc-pharma/logs/gunicorn-access.log
+  pidfile: logs/gunicorn-pid
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x7f0e75150c80>
+  backlog: 2048
+  keepalive: 2
+  chdir: /home/django/source/edc-pharma
+  on_starting: <function OnStarting.on_starting at 0x7f0e75150488>
+  default_proc_name: edc_pharma.wsgi
+  preload_app: False
+  reload: False
+  spew: False
+  pre_exec: <function PreExec.pre_exec at 0x7f0e751551e0>
+  pythonpath: None
+  on_reload: <function OnReload.on_reload at 0x7f0e75150620>
+  keyfile: None
+  ca_certs: None
+  capture_output: False
+  logger_class: gunicorn.glogging.Logger
+  syslog_addr: udp://localhost:514
+  user: 1004
+  config: gunicorn.conf.py
+  proc_name: None
+  timeout: 30
+  pre_fork: <function Prefork.pre_fork at 0x7f0e75150950>
+  post_fork: <function Postfork.post_fork at 0x7f0e75150ae8>
+  worker_abort: <function WorkerAbort.worker_abort at 0x7f0e75155048>
+  pre_request: <function PreRequest.pre_request at 0x7f0e75155378>
+  worker_exit: <function WorkerExit.worker_exit at 0x7f0e75155620>
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x7f0e751557b8>
+  logconfig: None
+  worker_connections: 1000
+  max_requests_jitter: 0
+  check_config: False
+  daemon: True
+  raw_env: []
+  worker_tmp_dir: None
+  group: 1004
+  forwarded_allow_ips: ['127.0.0.1']
+  post_request: <function PostRequest.post_request at 0x7f0e75155488>
+  syslog_prefix: None
+  ciphers: TLSv1
+  umask: 0
+  on_exit: <function OnExit.on_exit at 0x7f0e75155950>
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  errorlog: /home/django/source/edc-pharma/logs/gunicorn-error.log
+  paste: None
+  statsd_host: None
+  cert_reqs: 0
+  do_handshake_on_connect: False
+  workers: 1
+  max_requests: 0
+  django_settings: None
+  graceful_timeout: 30
+  limit_request_fields: 100
+  threads: 1
+  limit_request_field_size: 8190
+  loglevel: debug
+  syslog_facility: user
+  statsd_prefix: 
+  tmp_upload_dir: None
+  secure_scheme_headers: {'X-FORWARDED-SSL': 'on', 'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https'}
+  proxy_protocol: False
+  proxy_allow_ips: ['127.0.0.1']
+  bind: ['127.0.0.1:9000']
+[2016-11-17 12:28:23 +0200] [2503] [INFO] Starting gunicorn 19.6.0
+[2016-11-17 12:28:23 +0200] [2503] [DEBUG] Arbiter booted
+[2016-11-17 12:28:23 +0200] [2503] [INFO] Listening at: http://127.0.0.1:9000 (2503)
+[2016-11-17 12:28:23 +0200] [2503] [INFO] Using worker: sync
+[2016-11-17 12:28:23 +0200] [2506] [INFO] Booting worker with pid: 2506
+[2016-11-17 12:28:23 +0200] [2503] [DEBUG] 1 workers
+[2016-11-17 12:28:31 +0200] [2506] [DEBUG] GET /
+[2016-11-17 12:28:33 +0200] [2506] [DEBUG] GET /admin/auth/user/7/change/
+[2016-11-17 12:28:34 +0200] [2506] [DEBUG] GET /admin/jsi18n/
+[2016-11-17 12:28:40 +0200] [2506] [DEBUG] GET /admin/auth/user/
+[2016-11-17 12:28:40 +0200] [2506] [DEBUG] GET /admin/jsi18n/
+[2016-11-17 12:28:43 +0200] [2506] [DEBUG] GET /admin/auth/user/6/change/
+[2016-11-17 12:28:43 +0200] [2506] [DEBUG] GET /admin/jsi18n/
+[2016-11-17 12:29:00 +0200] [2506] [DEBUG] POST /admin/auth/user/6/change/
+[2016-11-17 12:29:00 +0200] [2506] [DEBUG] GET /admin/auth/user/
+[2016-11-17 12:29:00 +0200] [2506] [DEBUG] GET /admin/jsi18n/
+[2016-11-17 12:29:02 +0200] [2506] [DEBUG] GET /admin/auth/user/7/change/
+[2016-11-17 12:29:03 +0200] [2506] [DEBUG] GET /admin/jsi18n/
+[2016-11-17 12:29:07 +0200] [2506] [DEBUG] POST /admin/auth/user/7/change/
+[2016-11-17 12:29:07 +0200] [2506] [DEBUG] GET /admin/auth/user/
+[2016-11-17 12:29:07 +0200] [2506] [DEBUG] GET /admin/jsi18n/
+[2016-11-17 12:29:09 +0200] [2506] [DEBUG] GET /admin/auth/user/3/change/
+[2016-11-17 12:29:09 +0200] [2506] [DEBUG] GET /admin/jsi18n/
+[2016-11-17 12:29:17 +0200] [2506] [DEBUG] POST /admin/auth/user/3/change/
+[2016-11-17 12:29:17 +0200] [2506] [DEBUG] GET /admin/auth/user/
+[2016-11-17 12:29:17 +0200] [2506] [DEBUG] GET /admin/jsi18n/
+[2016-11-17 12:29:20 +0200] [2506] [DEBUG] GET /admin/auth/user/2/change/
+[2016-11-17 12:29:20 +0200] [2506] [DEBUG] GET /admin/jsi18n/
+[2016-11-17 12:29:27 +0200] [2506] [DEBUG] POST /admin/auth/user/2/change/
+[2016-11-17 12:29:27 +0200] [2506] [DEBUG] GET /admin/jsi18n/
+[2016-11-17 12:31:08 +0200] [2503] [INFO] Handling signal: term
+[2016-11-17 12:31:08 +0200] [2506] [INFO] Worker exiting (pid: 2506)
+[2016-11-17 12:31:08 +0200] [2503] [INFO] Shutting down: Master
+[2016-11-17 12:31:09 +0200] [2528] [DEBUG] Current configuration:
+  graceful_timeout: 30
+  keepalive: 2
+  syslog: False
+  on_starting: <function OnStarting.on_starting at 0x7f60d22db488>
+  worker_exit: <function WorkerExit.worker_exit at 0x7f60d22e0620>
+  daemon: True
+  django_settings: None
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x7f60d22e07b8>
+  statsd_host: None
+  backlog: 2048
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x7f60d22dbc80>
+  workers: 1
+  on_reload: <function OnReload.on_reload at 0x7f60d22db620>
+  ssl_version: 3
+  cert_reqs: 0
+  bind: ['127.0.0.1:9000']
+  spew: False
+  preload_app: False
+  limit_request_field_size: 8190
+  worker_int: <function WorkerInt.worker_int at 0x7f60d22dbe18>
+  post_request: <function PostRequest.post_request at 0x7f60d22e0488>
+  worker_tmp_dir: None
+  tmp_upload_dir: None
+  ca_certs: None
+  accesslog: /home/django/source/edc-pharma/logs/gunicorn-access.log
+  syslog_addr: udp://localhost:514
+  syslog_facility: user
+  check_config: False
+  limit_request_line: 4094
+  statsd_prefix: 
+  threads: 1
+  pre_exec: <function PreExec.pre_exec at 0x7f60d22e01e0>
+  pre_request: <function PreRequest.pre_request at 0x7f60d22e0378>
+  on_exit: <function OnExit.on_exit at 0x7f60d22e0950>
+  default_proc_name: edc_pharma.wsgi
+  certfile: None
+  pidfile: logs/gunicorn-pid
+  user: 1004
+  umask: 0
+  secure_scheme_headers: {'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on', 'X-FORWARDED-PROTOCOL': 'ssl'}
+  max_requests: 0
+  capture_output: False
+  logger_class: gunicorn.glogging.Logger
+  worker_class: sync
+  max_requests_jitter: 0
+  chdir: /home/django/source/edc-pharma
+  forwarded_allow_ips: ['127.0.0.1']
+  proxy_protocol: False
+  keyfile: None
+  raw_env: []
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  errorlog: /home/django/source/edc-pharma/logs/gunicorn-error.log
+  logconfig: None
+  enable_stdio_inheritance: False
+  reload: False
+  ciphers: TLSv1
+  when_ready: <function WhenReady.when_ready at 0x7f60d22db7b8>
+  pre_fork: <function Prefork.pre_fork at 0x7f60d22db950>
+  timeout: 30
+  proc_name: None
+  loglevel: debug
+  post_fork: <function Postfork.post_fork at 0x7f60d22dbae8>
+  worker_abort: <function WorkerAbort.worker_abort at 0x7f60d22e0048>
+  pythonpath: None
+  proxy_allow_ips: ['127.0.0.1']
+  config: gunicorn.conf.py
+  worker_connections: 1000
+  suppress_ragged_eofs: True
+  do_handshake_on_connect: False
+  syslog_prefix: None
+  sendfile: None
+  limit_request_fields: 100
+  group: 1004
+  paste: None
+[2016-11-17 12:31:09 +0200] [2528] [INFO] Starting gunicorn 19.6.0
+[2016-11-17 12:31:09 +0200] [2528] [DEBUG] Arbiter booted
+[2016-11-17 12:31:09 +0200] [2528] [INFO] Listening at: http://127.0.0.1:9000 (2528)
+[2016-11-17 12:31:09 +0200] [2528] [INFO] Using worker: sync
+[2016-11-17 12:31:09 +0200] [2533] [INFO] Booting worker with pid: 2533
+[2016-11-17 12:31:09 +0200] [2528] [DEBUG] 1 workers
+[2016-11-17 12:31:15 +0200] [2533] [DEBUG] GET /admin/auth/user/7/change/
+[2016-11-17 12:31:15 +0200] [2533] [DEBUG] GET /admin/jsi18n/
+[2016-11-17 12:31:17 +0200] [2533] [DEBUG] GET /admin/auth/user/
+[2016-11-17 12:31:17 +0200] [2533] [DEBUG] GET /admin/jsi18n/
+[2016-11-17 12:31:22 +0200] [2533] [DEBUG] GET /admin/auth/user/2/change/
+[2016-11-17 12:31:22 +0200] [2533] [DEBUG] GET /admin/jsi18n/
+[2016-11-17 12:31:28 +0200] [2533] [DEBUG] POST /admin/auth/user/2/change/
+[2016-11-17 12:31:28 +0200] [2533] [DEBUG] GET /admin/auth/user/
+[2016-11-17 12:31:28 +0200] [2533] [DEBUG] GET /admin/jsi18n/
+[2016-11-17 12:31:31 +0200] [2533] [DEBUG] GET /admin/auth/user/5/change/
+[2016-11-17 12:31:31 +0200] [2533] [DEBUG] GET /admin/jsi18n/
+[2016-11-17 12:31:37 +0200] [2533] [DEBUG] POST /admin/auth/user/5/change/
+[2016-11-17 12:31:37 +0200] [2533] [DEBUG] GET /admin/auth/user/
+[2016-11-17 12:31:37 +0200] [2533] [DEBUG] GET /admin/jsi18n/
+[2016-11-17 12:31:40 +0200] [2533] [DEBUG] GET /admin/auth/user/4/change/
+[2016-11-17 12:31:40 +0200] [2533] [DEBUG] GET /admin/jsi18n/
+[2016-11-17 12:31:45 +0200] [2533] [DEBUG] POST /admin/auth/user/4/change/
+[2016-11-17 12:31:45 +0200] [2533] [DEBUG] GET /admin/auth/user/
+[2016-11-17 12:31:46 +0200] [2533] [DEBUG] GET /admin/jsi18n/
+[2016-11-17 12:31:48 +0200] [2533] [DEBUG] GET /admin/auth/
+[2016-11-17 12:31:50 +0200] [2533] [DEBUG] GET /admin/auth/user/
+[2016-11-17 12:31:50 +0200] [2533] [DEBUG] GET /admin/jsi18n/
+[2016-11-17 12:31:54 +0200] [2533] [DEBUG] GET /admin/auth/user/6/change/
+[2016-11-17 12:31:54 +0200] [2533] [DEBUG] GET /admin/jsi18n/
+[2016-11-17 12:31:56 +0200] [2533] [DEBUG] GET /admin/auth/user/
+[2016-11-17 12:31:58 +0200] [2533] [DEBUG] GET /admin/auth/user/1/change/
+[2016-11-17 12:31:58 +0200] [2533] [DEBUG] GET /admin/jsi18n/
+[2016-11-17 12:32:06 +0200] [2533] [DEBUG] POST /admin/auth/user/1/change/
+[2016-11-17 12:32:06 +0200] [2533] [DEBUG] GET /admin/auth/user/
+[2016-11-17 12:32:07 +0200] [2533] [DEBUG] GET /admin/jsi18n/
+[2016-11-17 12:32:09 +0200] [2533] [DEBUG] GET /admin/auth/user/3/change/
+[2016-11-17 12:32:10 +0200] [2533] [DEBUG] GET /admin/jsi18n/
+[2016-11-17 13:09:17 +0200] [2533] [DEBUG] GET /admin/auth/user/7/change/
+[2016-11-17 13:09:18 +0200] [2533] [DEBUG] GET /admin/jsi18n/
+[2016-11-17 13:09:20 +0200] [2533] [DEBUG] GET /admin/
+>>>>>>> Stashed changes
