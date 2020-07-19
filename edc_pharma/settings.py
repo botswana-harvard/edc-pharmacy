@@ -26,7 +26,7 @@ SECRET_KEY = 'w30a*vldb5m5_!6z5ls0shizm8p()738y8mhxb3k+8379sa&eh'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost', '127.0.0.1']
 
 
 # Application definition
@@ -91,8 +91,12 @@ WSGI_APPLICATION = 'edc_pharma.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'pharma',
+	'HOST': '127.0.0.1',
+	'PORT': '3306',
+	'USER': 'root',
+	'PASSWORD': 'cc3721b'
     }
 }
 
