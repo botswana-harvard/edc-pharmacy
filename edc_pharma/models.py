@@ -99,7 +99,7 @@ class Patient(BaseUuidModel):
     subject_identifier = models.CharField(max_length=20, unique=True)
 
     initials = models.CharField(
-        max_length=3,
+        max_length=5,
         validators=[RegexValidator(r'^[A-Z]{2,3}$', message='Use CAPS, 2-3 letters')],
         help_text='Format is AA or AAA')
 
