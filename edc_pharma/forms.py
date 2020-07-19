@@ -9,7 +9,7 @@ from crispy_forms.helper import FormHelper
 from crispy_forms.layout import Layout
 
 from .constants import TABLET, SYRUP, IV, CAPSULE, SOLUTION, IM, SUPPOSITORY
-from .models import Dispense
+from .models import Dispense, Profile
 
 
 class PatientSearchForm(forms.Form):
@@ -292,4 +292,11 @@ class DispenseForm(forms.ModelForm):
 
     class Meta:
         model = Dispense
+        fields = '__all__'
+
+
+class ProfileForm(forms.ModelForm):
+
+    class Meta:
+        model = Profile
         fields = '__all__'
