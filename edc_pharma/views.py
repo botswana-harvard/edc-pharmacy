@@ -87,7 +87,7 @@ class PatientRecordView(EdcBaseViewMixin, EdcLabelViewMixin, TemplateView):
         dispense = Dispense.objects.get(pk=dispense_pk)
         label_name = self.label_name(dispense.dispense_type)
         super(PatientRecordView, self).print_label(
-            label_name, copies=self.number_of_copies, context=dispense.label_context)
+            label_name, copies=self.number_of_copies, context=dispense.label_context(self.request.user))
 
     def label_name(self, name):
         if name == TABLET:

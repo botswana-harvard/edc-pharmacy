@@ -295,8 +295,7 @@ class Dispense(BaseUuidModel):
                     total_number_of_tablets=self.total_number_of_tablets))
         return prescription
 
-    @property
-    def label_context(self):
+    def label_context(self, user=None):
         label_context = {
             'site': self.patient.site,
             'telephone_number': self.patient.site.telephone_number,
@@ -306,7 +305,7 @@ class Dispense(BaseUuidModel):
             'times_per_day': self.times_per_day,
             'drug_name': self.medication,
             'prepared_datetime': self.prepared_datetime.strftime("%d-%m-%y %H:%M"),
-            'prepared_by': Profile.objects.get(user__username=self.user_created).initials,
+            'prepared_by': Profile.objects.get(user__username=user.username).initials,
             'storage_instructions': self.medication.storage_instructions,
             'protocol': self.medication.protocol,
             'weight': self.weight,
