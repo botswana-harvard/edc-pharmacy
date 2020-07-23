@@ -17,6 +17,6 @@ class EdcBaseAppConfig(EdcBaseAppConfigParent):
 
 
 class EdcLabelAppConfig(EdcLabelAppConfigParent):
-    default_cups_server_ip = '10.136.211.54'
-    default_printer_label = 'pharma'
+    default_cups_server_ip = '10.113.200.240'
+    default_printer_label = 'pharma_label_printer'
     extra_templates_folder = os.path.join(settings.STATIC_ROOT, 'edc_pharma', 'label_templates')
